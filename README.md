@@ -5,7 +5,7 @@ The linux application shoulld be in working order. The Windows application needs
 
 windows download link https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
 
-The Windows application needs to be repackaged with updates
+The Windows application works. Needs to be cleaned up. 
 
 linux download link https://icedrive.net/s/ZAWh2W4jRfB2jCBCTQ3h93tZvPta
 
