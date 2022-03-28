@@ -12,3 +12,7 @@ linux download link https://icedrive.net/s/GBQ4xDiWQ8aYAwTz8GhySyvyjGbG
 not zipped windows application https://icedrive.net/s/uPRxCD1tFgDT6yZuty8h9bP8Wiux
 
 The android application is hosted on github. I quit working on it a ways into the project. Got tired of repackaging it over and over again on a bunch of systems. The core application works on android though.
+
+There is also a password protected Bookmarks section which can be accessed by typing @secret or @hidden into the main form. To add new pages to this section you would type https://www.google.com@secret or https://www.google.com@hidden  . To just view the section you would only type @secret/@hidden. You are offered the option to change the passphrase. After it has been changed, hidden bookmarks can be added with password https://www.google.com . It's just your created password followed by a space. To access the hidden bookmarks, you just type in the password. I planned on adding a password manager. Kinda just burnt out on it. Wanted to have something to upload. 
+
+I'll try and update the windows build in a bit.
