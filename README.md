@@ -16,3 +16,5 @@ The android application is hosted on github. I quit working on it a ways into th
 There is also a password protected Bookmarks section which can be accessed by typing @secret or @hidden into the main form. To add new pages to this section, you would type https://www.google.com@secret or https://www.google.com@hidden  . To just view the section you would only type @secret/@hidden. You are offered the option to change the passphrase. After it has been changed, hidden bookmarks can be added with password https://www.google.com . It's just your created password followed by a space. To access the hidden bookmarks, you just type in the password. I planned on adding a password manager. Kinda just burnt out on it. Wanted to have something to upload. 
 
 I'll try and update the windows build in a bit.
+
+Just unzip the files and click on the executable. It should be the last file in the folder if it's sorted alphabetically. 
