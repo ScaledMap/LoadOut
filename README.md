@@ -7,7 +7,7 @@ windows download link https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
 
 The Windows application works. Needs to be cleaned up. 
 
-linux download link https://icedrive.net/s/ZAWh2W4jRfB2jCBCTQ3h93tZvPta
+linux download link https://icedrive.net/s/PtvVfAvFT3yZFkkvPYgt3aPt3Zau
 
 not zipped windows application https://icedrive.net/s/uPRxCD1tFgDT6yZuty8h9bP8Wiux
 
