@@ -1,5 +1,5 @@
 # LoadOut
-LoadOut is an application I've been working on to help manage and organize my bookmarks. It's a Pywebview application built on flask. You can run it as a server or as a webview.  It allows you to import your bookmarks from firefox and create categories to interact with those bookmarks. It would also probably be useful for situations where you want to avoid messing with the keyboard. I had a setup at one point where i was using opera just because I had the computer hooked up to a TV and it meant I didn't need to use the keyboard as much. I've found that it has the most utility when run as server and set as your homepage. If you just wan't to use the webview though, there are some perks with that set up as well. The webview runs on chromium and doesn'[t remember cookies. Don't thank me, thank the pywebview dude. 
+LoadOut is an application I've been working on to help manage and organize my bookmarks. It's a Pywebview application built on flask. You can run it as a server or as a webview.  It allows you to import your bookmarks from firefox and create categories to interact with those bookmarks. It would also probably be useful for situations where you want to avoid messing with the keyboard. I had a setup at one point where i was using opera because speeddial was useful when I was hooked up to the TV. It meant I didn't need to use the keyboard as much. This is, and has, been useful in a similar usecase. I've found that LoutOut has the most utility when run as server and set as your homepage. If you just wan't to use the webview though, there are some perks with that set up as well. The webview runs on chromium and doesn'[t remember cookies. Don't thank me, thank the pywebview guy lol. 
 
 There are a lot of things I could probably do with this application in the future. I hope I continue to work on it. More customization would be nice. More default filters. I was thinking about trying to add rss. A rss server sounds pretty cool. 
 
@@ -22,10 +22,10 @@ I quit working on it a ways into the project. Got tired of repackaging it over a
 about
 -----------
 
-There is a password protected Bookmarks section which can be accessed by typing @secret or @hidden into the main form. To add new pages to this section, you would type https://www.google.com@secret or https://www.google.com@hidden  . To just view the section you would only type @secret/@hidden. You are offered the option to change the passphrase. After it has been changed, hidden bookmarks can be added with password https://www.google.com . It's just your created password followed by a space. To access the hidden bookmarks, you just type in the password. I planned on adding a password manager. Kinda just burnt out on it. Wanted to have something to upload. 
+There is a password protected Bookmarks section which can only be accessed by typing @secret or @hidden into the main form. To add new pages to this section, you would type https://www.google.com@secret or https://www.google.com@hidden  . To just view the section you would only type @secret or @hidden into the main form. You are offered the option to change the passphrase. After it has been changed, hidden bookmarks can be added with password https://www.google.com . It's just your created password followed by a space and then the url you want to add. To access the hidden bookmarks, you just type in the password. I planned on adding a password manager. I will probably try to add a bunch of stuff. At the very least, I  at least have it to a point where everything seemsto function as intended. Wanted to at least have something I could upload. 
 
-I'll try and update the windows build in a bit.
+Couldnt be easier to use
 
-Just unzip the files and click on the executable. It should be the last file in the folder if it's sorted alphabetically. 
+Just unzip the files and click on the executable. It should be the last file in the folder if it's sorted alphabetically. There's probably more security with the onefile packages. It's nice to be able to mess with the ini files though. If it's not working, we could try using the one the runs with the terminal.
 
 
