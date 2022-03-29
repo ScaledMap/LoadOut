@@ -36,3 +36,5 @@ If you don't provide information about5 a website, it will try and scrape it. Ki
 
 If you try and import your bookmarks a second time, it will only add the new bookmarks. So you can update it by importing your firefox bookmarks multiple times. Yeah. cool stuff. lol also going to work on the add icons sections. It had a mange passwords section. Removed that for now. At least I have the basic stuff working. lol shouldn't completly stop working because an api key expired. That has happend a lot.
 
+-----------------------------------------
+Even if you don't really feel the application would be all that useful. The default bookmarks i have set up are kind of great. Stumbleupon(god i used to love that), literally like every guitar scale ever, python tutorials. Keeping track of my backing tracks is nice too.
