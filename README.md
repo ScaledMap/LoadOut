@@ -1,5 +1,5 @@
 # LoadOut
-LoadOut is an application I've been working on to help manage and organize my bookmarks. It's a Pywebview application built on flask. You can run it as a server or as a webview.  It allows you to import your bookmarks from firefox and create categories to interact with those bookmarks. It would also probably be useful for situations where you want to avoid messing with the keyboard. I had a setup at one point where i was using opera because speeddial was useful when I was hooked up to the TV. This is, and has, been useful in similar usecases. I've found that LoadOut has the most utility when run as server and set as your homepage. If you just wan't to use the webview though, there are some perks with that as well. The webview runs on chromium and doesn'[t remember cookies. Don't thank me, thank the pywebview guy lol. 
+LoadOut is an application I've been working on to help manage and organize my bookmarks. It's a Pywebview application built on flask. You can run it as a server or as a webview.  It allows you to import your bookmarks from firefox and create categories to interact with those bookmarks. It would also probably be useful for situations where you want to avoid messing with the keyboard. I had a setup at one point where i was using opera because speeddial was useful when I was hooked up to the TV. This has been useful in similar usecases.
 
 There are a lot of things I could probably do with this application in the future. hope I continue to work on it. More customization would be nice. More default filters. I was thinking about trying to add rss. A rss server sounds pretty cool.
 
@@ -15,7 +15,7 @@ download link= https://icedrive.net/s/g4SD5G5TuyyvkB36X9jGiYug68g2
 
 The android application is hosted on github.
 ----------------------------------------
-I quit working on it a ways into the project. Got tired of repackaging it over and over again on a bunch of systems. The core application works on android. I may go back and try and get everything working on android. The android application lets you keep track of your bookmarks, but it can't import them from firefox or anything. It's been kind of useful, but I don't usually download a lot of mobile apps and stuff. 
+I quit working on it a ways into the project. Got tired of repackaging it over and over again on a bunch of systems. 
 
 
 ----------------------------------------
@@ -34,7 +34,7 @@ Just unzip the files and click on the executable. It should be the last file in 
 
 If you don't provide information about5 a website, it will try and scrape it. Kinda doubt there would be enough requests to cause any problems.
 
-If you try and import your bookmarks a second time, it will only add the new bookmarks. So you can update it by importing your firefox bookmarks multiple times. Yeah. cool stuff. lol also going to work on the add icons sections. It had a mange passwords section. Removed that for now. At least I have the basic stuff working. lol shouldn't completly stop working because an api key expired. That has happend a lot.
+If you try and import your bookmarks a second time, it will only add the new bookmarks. So you can update it by importing your firefox bookmarks multiple times. 
 
 -----------------------------------------
 Even if you don't really feel the application would be all that useful. The default bookmarks i have set up are kind of great. Stumbleupon(god i used to love that), literally like every guitar scale ever, python tutorials. Keeping track of my backing tracks is nice too.
