@@ -28,4 +28,11 @@ Couldnt be easier to use
 
 Just unzip the files and click on the executable. It should be the last file in the folder if it's sorted alphabetically. There's probably more security with the onefile packages. It's nice to be able to mess with the ini files though. If it's not working, we could try using the one the runs with the terminal.
 
+1)To import your bookmarks, go to firefox>bookmarks>manage bookmarks>import and backup>click on backup
+2)then open that in the applications file picker.
+3)It will probably take a second. I haven't built a loading secreen so just give it a sec. It's trying to pullout the favicons and everything. It should also sort out nsfw content if it finds it.
+
+If don't provide it information about5 a website it will try and scrape it. Kinda doubt there would be enough requests to cause in problems.
+
+If you try and import your bookmarks a second time, it will only add the new bookmarks.  Yeah. cool stuff.
 
