@@ -1,7 +1,7 @@
 # LoadOut
 LoadOut is an application I've been working on to help manage and organize my bookmarks. It's a Pywebview application built on flask. You can run it as a server or as a webview.  It allows you to import your bookmarks from firefox and create categories to interact with those bookmarks. It would also probably be useful for situations where you want to avoid messing with the keyboard. I had a setup at one point where i was using opera because speeddial was useful when I was hooked up to the TV. It meant I didn't need to use the keyboard as much. This is, and has, been useful in a similar usecase. I've found that LoutOut has the most utility when run as server and set as your homepage. If you just wan't to use the webview though, there are some perks with that as well. The webview runs on chromium and doesn'[t remember cookies. Don't thank me, thank the pywebview guy lol. 
 
-There are a lot of things I could probably do with this application in the future. I hope I continue to work on it. More customization would be nice. More default filters. I was thinking about trying to add rss. A rss server sounds pretty cool. 
+There are a lot of things I could probably do with this application in the future. hope I continue to work on it. More customization would be nice. More default filters. I was thinking about trying to add rss. A rss server sounds pretty cool. 
 
 
 downloads are available as onefile or a download where the ini files are visible.
