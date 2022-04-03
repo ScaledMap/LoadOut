@@ -11,7 +11,7 @@ windows
 download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
 
 *maybe hold off on using the onefile version of the application. It can't read from the config file. If I try to reupload the onefile version, I think I will probably have to move those settings into a database or something(not building it on windows). Also, seems like the application can have some trouble opening a browser window to localhost on startup. Might have to type it in. Setting it as the home page is a cool way to do it anyway. Problems don't exist on linux.
-
+*I guess Icedrive zipped the folders again after I had already zipped them. So for the windows application, i think you have to unzip them and unzip them.
 linux 
 download link= https://icedrive.net/s/g4SD5G5TuyyvkB36X9jGiYug68g2
 
@@ -27,6 +27,7 @@ about
 There is a password protected Bookmarks section which can only be accessed by typing @secret or @hidden into the main form. To add new pages to this section, you would type something like https://www.google.com@secret or https://www.google.com@hidden  . To just view the section you would only type @secret or @hidden into the main form. You are offered the option to change the passphrase. After it has been changed, hidden bookmarks can be added with password https://www.google.com . It's just your created password followed by a space and then the url you want to add. To access the hidden bookmarks with the new password, you just type in the password. You don't need the @ symbol if you created a password. I planned on adding a password manager. I will probably try to add a bunch of stuff. At the very least, I at least have it to a point where everything seemsto function as intended. Wanted to at least have something I could upload. 
 
 Couldnt be easier to use
+
 
 Just unzip the files and click on the executable. It should be the last file in the folder if it's sorted alphabetically(loadouts.exe). There's probably more security with the onefile packages. It's nice to be able to mess with the ini files though(forgetting what port you are running it on and stuff). If it's not working, we could try use the ones that run in the terminal.
 
