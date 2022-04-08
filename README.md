@@ -9,18 +9,19 @@ downloads are available as onefile or a download where the ini files are visible
 
 
 
-*maybe hold off on using the onefile version of the application. It can't read from the config file. If I try to reupload the onefile version, I think I will probably have to move those settings into a database or something(not building it on windows). Also, seems like the application can have some trouble opening a browser window to localhost on startup. Might have to type it in. Setting it as the home page is a cool way to do it anyway.
-*I guess Icedrive zipped the folders again after I had already zipped them. So for the windows application, i think you have to unzip them and unzip them.
+*maybe hold off on using the onefile version of the application. It can't read from the config file.
+*I guess Icedrive zipped the folders again after I had already zipped them. So for the windows application, i think you have to unzip them and unzip them again.
 
 
 windows 
 download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
+
 linux 
 download link= https://icedrive.net/s/g4SD5G5TuyyvkB36X9jGiYug68g2
 
 The android application is hosted on github.
 ----------------------------------------
-I quit working on it a ways into the project. Got tired of repackaging it over and over again on a bunch of systems. 
+I quit working on the android application a while back. Got tired of repackaging it over and over again on a bunch of systems. 
 
 
 ----------------------------------------
