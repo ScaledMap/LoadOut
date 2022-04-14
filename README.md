@@ -6,7 +6,7 @@ There are a lot of things I could probably do with this application in the futur
 
 downloads are available as onefile or a download where the ini files are visible.
 ------------------------------------
-The linux application has been updated. Added a few settings. atomatically sorts out images. Some navigation options if you want to open up a url inside the webview. Sorts out youtube channels by default. Can see the most recent videos on the channels. ONly the linux non one file version is currently updated.
+The linux application has been updated. Added a few settings. atomatically sorts out images. Some navigation options if you want to open up a url inside the webview. Sorts out youtube channels by default. Can see the most recent videos on the channels. Added an option to open youtube links in a random invidious instance. ONly the linux non one file version is currently updated.
 
 
 *maybe hold off on using the onefile version of the application. It can't read from the config file.
