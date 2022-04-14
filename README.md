@@ -1,12 +1,12 @@
 # LoadOut
-LoadOut is an application I've been working on to help manage and organize my bookmarks. It's a Pywebview application built on flask. You can run it as a server or as a webview.  It allows you to import your bookmarks from firefox and create categories to interact with those bookmarks. It would also probably be useful for situations where you want to avoid messing with the keyboard. I had a setup at one point where i was using opera because speeddial was useful when I was hooked up to the TV. This has been useful in similar usecases.
+LoadOut is an Bookmark manager I've been working on to help manage and organize my bookmarks. It's a Pywebview application built on flask. You can run it as a server or as a webview.  It allows you to import your bookmarks from firefox and create categories to interact with those bookmarks. It would also probably be useful for situations where you want to avoid messing with the keyboard. I had a setup at one point where i was using opera because speeddial was useful when I was hooked up to the TV. This has been useful in similar usecases.
 
 There are a lot of things I could probably do with this application in the future. hope I continue to work on it. More customization would be nice. More default filters. I was thinking about trying to add rss. An rss server sounds pretty cool.
 
 
 downloads are available as onefile or a download where the ini files are visible.
 ------------------------------------
-
+The linux application has been updated. Added a few settings. atomatically sorts out images. Some navigation options if you want to open up a url inside the webview. Sorts out youtube channels by default. Can see the most recent videos on the channels. ONly the linux non one file version is currently updated.
 
 
 *maybe hold off on using the onefile version of the application. It can't read from the config file.
