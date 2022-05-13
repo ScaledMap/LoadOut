@@ -1,7 +1,7 @@
 # LoadOut
 :\ Not great at setting up the development environment lol. The file is also too big to host on github. That's why im linking to icedrive.
 
-LoadOut is a Bookmark manager I've been working on to help manage and organize my bookmarks. It's a Pywebview application built on flask. You can run it as a server or as a webview.  It allows you to import your bookmarks from firefox and create categories to interact with those bookmarks. It would also probably be useful for situations where you want to avoid messing with the keyboard. There was a time where i was using opera because speeddial was useful. I'd kind of like it to be a more flexible alternative to something like opera or speedial. Still kind of a work in progress. I'll probably upload the python script in a bit and a list of packages(requirments.txt) if the exe is too much for ya. Kind of just pick at it when i get bored. Add stuff I think is cool. It could use some optimization. Runs well enough though. My advice would be to run it as a server. You can set it up to boot at startup and set it as the load in page like how pocket would usually load in. An alternative idea would be to change the icon and run it as a server. Would open firefox but on the servers homepage. In the photos section, the desktop is cinnamon. Figure people might wonder about that. 
+LoadOut is a Bookmark manager I've been working on to help manage and organize my bookmarks. It's a Pywebview application built on flask. You can run it as a server or as a webview.  It allows you to import your bookmarks from firefox and create categories to interact with those bookmarks. It would also probably be useful for situations where you want to avoid messing with the keyboard. There was a time where i was using opera because speeddial was useful. I'd kind of like it to be a more flexible alternative to something like pocket or speedial. Still kind of a work in progress. I'll probably upload the python script in a bit and a list of packages(requirments.txt) if the exe is too much for ya. Kind of just pick at it when i get bored. Add stuff I think is cool. It could use some optimization. Runs well enough though. My advice would be to run it as a server. You can set it up to boot at startup and set it as the load in page like how pocket would usually load in. An alternative idea would be to change the icon and run it as a server. Would open firefox but on the servers homepage. In the photos section, the desktop is cinnamon. Figure people might wonder about that. 
 
 There are a lot of things I could probably do with this application in the future. More customization would be nice. More default filters. I was thinking about trying to add rss.
 
@@ -36,7 +36,7 @@ windows
 download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
 
 linux 
-download link= https://icedrive.net/s/xwbGVbu5ujiA95D2ZyGuQhw3Tu3W
+download link= https://icedrive.net/s/3vVj8Zh5v3Zjb1x2ZWiB5FD2yu1w
 
 The android application is hosted on github.
 ----------------------------------------
