@@ -8,7 +8,7 @@ There are a lot of things I could probably do with this application in the futur
 ----------------------------------------
 about
 -----------------------------------------
-edit may 13:Added a default background image. edit:made background image fixed. You can switch it back to colors as the default backtround in the customize.ini file. Set the background-image/image to None. Without quotes. You can also change the background image this way. Fixed a but where order wasn't working when loaded from the cardview. Added a notetaking webapp to the project. YOu can create notes based on category in the cardview section. Will open reddit links with a random libreddit instance(still need to clean up a bit). It's the same button as convert youtube to invidious as of now.
+edit may 13:Added a default background image. edit:made background image fixed. You can switch it back to colors as the default backtround in the customize.ini file. Set the background-image/image to None. Without quotes. You can also change the background image this way. Fixed a but where order wasn't working when loaded from the cardview. Added a notetaking webapp to the project. YOu can create notes based on category in the cardview section. Will open reddit links with a random libreddit instance(still need to clean up a bit). It's the same button as convert youtube to invidious as of now. You can also add bookmarks to the application from the webview now. importing bookmarks is still probably the best option though.
 
 The linux application has been updated. Added a few settings. atomatically sorts out images. Added navigation options if you want to open up a url inside a webview. Sorts out youtube channels by default. You can see the most recent videos on bookmarked youtube channels. Added an option to open youtube links in a random invidious instance. Added a search bar to search through all your bookmarks. There is a cardview section which is an alternative to using the dropdown. You can choose what bookmarks open when the application is loaded. Bunch of different features in the settings section. The invidious links option parses the instance list. You can be update it by just replaceing the html file with the redownloaded invidious instance list html page. Can change a lot of the settings in the config files. Some ideas for the future 1)might add m3u 2)maybe nlp for categories 3) maybe feedreading stuff. Try not to go to overboard though.
 
@@ -36,7 +36,7 @@ windows
 download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
 
 linux 
-download link= https://icedrive.net/s/AVQGQy1D9k5R3vyiuY4kiftkRRB3
+download link= https://icedrive.net/s/xwbGVbu5ujiA95D2ZyGuQhw3Tu3W
 
 The android application is hosted on github.
 ----------------------------------------
