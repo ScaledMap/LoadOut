@@ -57,7 +57,7 @@ windows
 download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
 
 linux 
-download link= https://icedrive.net/s/3vVj8Zh5v3Zjb1x2ZWiB5FD2yu1w
+download link= https://icedrive.net/s/Fag9gRugZPT727y3Daak44tigXXv
 
 
 The android application is hosted on github.
