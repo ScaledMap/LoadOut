@@ -9,6 +9,7 @@ There are a lot of things I could probably do with this application in the futur
 about and updates
 -----------------------------------------
 The linux application has been updated. The windows application is way behind the linux build at the moment
+edit may 16: changed the background for categories. can be adjusted in the customize.ini. Design feels 100 percent better now. I have a ton of bookmarks so sometimes bugs slip through when i test it without many entries. 
 
 edit may 14:Fixed a bug with the filepicker. Added A bigscreen mode that kind of looks like speeddial. It isn't set as the default loadin because it looks a little wonky if there arent many bookmarks in a category. Added the foundation for a feedreading webapp. refractored the application a bit. Going to rearange the database around images and rss. 
 
@@ -57,7 +58,7 @@ windows
 download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
 
 linux 
-download link= https://icedrive.net/s/Fag9gRugZPT727y3Daak44tigXXv
+download link= https://icedrive.net/s/RWaRyRQkVVyga1gbWftDvhfyz1F4
 
 
 The android application is hosted on github.
