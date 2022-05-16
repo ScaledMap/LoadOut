@@ -22,18 +22,6 @@ atomatically sorts out images. Added navigation options if you want to open up a
 
 
 
-
-todo
-----------------------
-Some ideas for the future
-1)might add m3u support
-2)maybe nlp for categories 3) 
-3)feedreading stuff.
-
-
-Try not to go to overboard though.
-really need to get things together with version control. I didn't really originally plan on it being as comprehensive as it currently is. Think running it as a server is what makes it a pretty great idea for an application.
-
 -------------------------------------------
 Hidden bookmarks
 -------------------------------------------
@@ -70,6 +58,14 @@ Todo list
 
 improve how it scrapes libreddit, fix up "speeddial" page behaves properly without a bunch of bookmarks, continue working on feedreader, think if i decide to add m3u support, it'd probably be through vlc, WORK UP THE NERVE TO PUBLISH THE APPLICATION, clean up the positioning on a few of the pages, look into messing with selenium(would maan the application would break without updates), look into a firefox extension, add the libreddit instance setting as its own button, add filepicker or at least form to update the background image(instead of the customize.ini file), look into porting the application to mobile(probably with an api and kivy)
 
+----------------------
+Some ideas for the future
+1)might add m3u support
+2)maybe nlp for categories 3) 
+3)feedreading stuff.
 
+
+Try not to go to overboard though.
+really need to get things together with version control. I didn't really originally plan on it being as comprehensive as it currently is. Think running it as a server is what makes it a pretty great idea for an application.
 
 
