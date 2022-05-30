@@ -1,3 +1,9 @@
+Hosting the file on icedrive until i publish it
+
+Title
+-------
+Loadout
+-------
 
 LoadOut is a Bookmark manager I've been working on to help manage and organize my bookmarks. It's a Pywebview application built on flask. You can run it as a server or as a webview.  It allows you to import your bookmarks from firefox and create categories to interact with those bookmarks. It would also probably be useful for situations where you want to avoid messing with the keyboard. There was a time where i was using opera because speeddial was useful. I'd kind of like it to be a more flexible alternative to something like pocket or speedial. My advice would be to run it as a server. You can set loadout to boot at startup and make it your homepage.  Another option would be to change the icon(so it looks like firefox) and run it as a server. it will try and open your default browser when you click on the exe if its set to run as a server.
 
@@ -48,7 +54,7 @@ windows
 download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
 
 linux 
-download link= https://icedrive.net/s/6Z4PaF5k8YRF3AW39GXzjChjiZaC
+download link= https://icedrive.net/s/3WzG9RStYDXxbX58w7P6j9B4ghVw
 
 
 The android application is hosted on github.
