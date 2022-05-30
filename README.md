@@ -34,7 +34,7 @@ windows
 download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
 
 linux 
-download link= https://icedrive.net/s/2z81w3Pu7wjk1kkV5v6XZf3GCWkh
+download link= https://icedrive.net/s/Z333DR8wAXXy7wPS2fDPvD23kCRg
 
 
 ----------------------------------------
