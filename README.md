@@ -2,7 +2,7 @@ Hosting the file on icedrive until i publish it
 
 basic usage:
 ----------------
-open image in new tab/open image link .jpeg/.gif, etc = images(can work with some proxies)
+open image in new tab/open image link .jpeg, .gif, etc = images(can work with some proxies)
 
 youtube.com/watch/ = to create playlists and filter iframes
 
@@ -78,8 +78,7 @@ I quit working on the android application a while back. Got tired of repackaging
 
 Todo list
 ----------------------------------------------
-
-improve how the application scrapes libreddit, fix up the "speeddial" page, continue working on the feedreader, if i decide to add m3u support, it'd probably be through vlc, WORK UP THE NERVE TO PUBLISH THE APPLICATION, clean up the positioning on a few of the pages, look into building a fireefox extension to dynaimically add bookmarks, add libreddit instances as its own button, add a filepicker or a form to update the background images(This is currently only available with the ini file), look into porting the application to mobile(probably with an api and kivy).
+Paginate the extracted youtube videos, maybe add a checkbox option for seperate music playlists(shuffle plays everything in the music section atm) improve how the application scrapes libreddit, fix up the "speeddial" page, continue working on the feedreader, if i decide to add m3u support, it'd probably be through vlc, WORK UP THE NERVE TO PUBLISH THE APPLICATION, clean up the positioning on a few of the pages, look into building a fireefox extension to dynaimically add bookmarks, add libreddit instances as its own button, add a filepicker or a form to update the background images(This is currently only available with the ini file), look into porting the application to mobile(probably with an api and kivy).
 
 ----------------------
 Some ideas for the future
