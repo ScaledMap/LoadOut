@@ -29,7 +29,9 @@ You could also use the webview as a browser. Kind of a limited experience but yo
 -----------------------------------------
 The linux application has been updated. The windows application is way behind the linux build at the moment
 
-edit may 30: the music category now has an option to open your youtube links in that category in a playlist. Kind of a clever solution to putting together a simple way to play music. Way easier than selenium or using the api. Cleaned up the images section. can edit and remove images from the images section. Cleaned up a bunch of bugs. Images only show up if they are added to the photos category at the moment. That isn't the ideal behavior I just need to think about how i handle that for a bit. Also added basic obfiscation to the notes webapp. You can convert the notes back and forth between plain text and the encoding. probably add more encodings later.
+The linux application is pretty usuable at the moment. I use the application everyday and have close to 1000 bookmarks lol. Even if i do update the tables, I will go out of my way to not mess up my current set up. 
+
+edit may 30: Added an option to open youtube links as a youtube playlist. It will create a playlist from all the youtube videos in the category. Kind of a clever solution to putting together a simple way to play music. Way easier than selenium or using the api. Cleaned up the images section. can edit and remove images from the images section. Cleaned up a bunch of bugs. Images only show up if they are added to the photos category at the moment. That isn't the ideal behavior, I just need to think about how i will handle them. Also added basic obfiscation to the notes webapp. You can convert the notes back and forth between plain text and the encoding. probably add more encodings later.
 
 edit may 16: changed the background for the categoriess section. It can be adjusted in the customize.ini file. Design feels 100 percent better now. I have a ton of bookmarks so sometimes bugs slip through when i test it without my bookmarks in the database.
 
@@ -69,7 +71,7 @@ windows
 download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
 
 linux 
-download link= https://icedrive.net/s/3WzG9RStYDXxbX58w7P6j9B4ghVw
+download link= https://icedrive.net/s/2z81w3Pu7wjk1kkV5v6XZf3GCWkh
 
 
 The android application is hosted on github.
