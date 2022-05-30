@@ -10,7 +10,7 @@ about and updates
 -----------------------------------------
 The linux application has been updated. The windows application is way behind the linux build at the moment
 
-edit may 30: the music category now has an option to open your youtube links in that category in a playlist. Kind of a clever solution to putting together a simple way to play music. Way easier than selenium or using the api. Cleaned up the images section. can edit and remove images from the images section. Cleaned up a bunch of bugs. Images only show up if they are added to the photos category at the moment. That isn't the ideal behavior I just need to think about how i handle that for a bit. 
+edit may 30: the music category now has an option to open your youtube links in that category in a playlist. Kind of a clever solution to putting together a simple way to play music. Way easier than selenium or using the api. Cleaned up the images section. can edit and remove images from the images section. Cleaned up a bunch of bugs. Images only show up if they are added to the photos category at the moment. That isn't the ideal behavior I just need to think about how i handle that for a bit. Also added basic obfiscation to the notes webapp. You can convert the notes back and forth between plain text and the encoding. probably add more encodings later.
 
 edit may 16: changed the background for the categoriess section. It can be adjusted in the customize.ini file. Design feels 100 percent better now. I have a ton of bookmarks so sometimes bugs slip through when i test it without my bookmarks in the database.
 
