@@ -9,10 +9,10 @@ LoadOut is a Bookmark manager I've been working on to help manage and organize m
 
 You could also use this with librewolf or an alternative browser. Some of the more privacy focused browsers don't do cookies by default. Bookmarks would be useful in that case.
 
-the desktop in the photos is cinnamon. Figure people might wonder about that. I usually bounce back and forth between cinnamon and mate. 
+You could also use the webview as a browser. Kind of a limited experience but you could try it.
 
 ----------------------------------------
-about and updates
+ updates
 -----------------------------------------
 The linux application has been updated. The windows application is way behind the linux build at the moment
 
@@ -23,9 +23,9 @@ edit may 16: changed the background for the categoriess section. It can be adjus
 edit may 14:Fixed a bug with the filepicker. Added A bigscreen mode that kind of looks like speeddial. It isn't set as the default loadin because it looks a little wonky if there arent many bookmarks in a category. Added the foundation for a feedreading webapp. refractored the application a bit. Going to rearange the database around images and rss. 
 
 edit may 13:Added a default background image. edit:made background image fixed. You can switch it back to colors as the default backtround in the customize.ini file. Set the [background-image][image]= None. Without quotes. You can also set the bookmarks background image this way. It will add whatver path you write in the .ini file. Fixed a bug where order wasn't working when loaded from the cardview. Added a notetaking webapp to the project. YOu can create notes based on category. This is in the cardview section(might add an option for basic encryption/obfiscation for notes). The application will open reddit links with a random libreddit instance now(still need to clean that code up a bit. Ideally everything could be tweaked from the files). It's the same button as "convert youtube to invidious". You can add bookmarks to the application from the webview now. importing bookmarks from firefox is still probably the best option though. 
-
-features/updated
-
+-------
+features/
+-------
 atomatically sorts out images. Added navigation options if you want to open up a url inside a webview. Sorts out youtube channels by default. You can see the most recent videos on bookmarked youtube channels. The last five videos. Added an option to open youtube links in a random invidious instance. Added a search bar to search through all your bookmarks and asearch bar for icons. There is a cardview section which is an alternative to using the dropdown. You can choose what bookmarks open when the application is loaded. You can choose what page is loaded in general. Most of the features are in the settings section. The invidious links option parses the invidious instance list. You can be update the instance list by just replaceing the html file with the redownloaded invidious instance list https://redirect.invidious.io/. Save the html page and overwrite the old one. I think the kevinrocks instance is dead. That isn't an error in the application. A few of the instances on the list went down in the last week or so.
 
 
