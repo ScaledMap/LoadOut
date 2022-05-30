@@ -58,7 +58,7 @@ I quit working on the android application a while back. Got tired of repackaging
 Todo list
 ----------------------------------------------
 
-improve how the application scrapes libreddit, fix up the "speeddial" page, continue working on the feedreader, if i decide to add m3u support, it'd probably be through vlc, WORK UP THE NERVE TO PUBLISH THE APPLICATION, clean up the positioning on a few of the pages, look into messing with selenium(would maan the application would break without updates), look into building a fireefox extension to dynaimically add bookmarks, add libreddit instances as its own button, add a filepicker or a form to update the background images(This is currently only available with the ini file), look into porting the application to mobile(probably with an api and kivy).
+improve how the application scrapes libreddit, fix up the "speeddial" page, continue working on the feedreader, if i decide to add m3u support, it'd probably be through vlc, WORK UP THE NERVE TO PUBLISH THE APPLICATION, clean up the positioning on a few of the pages, look into building a fireefox extension to dynaimically add bookmarks, add libreddit instances as its own button, add a filepicker or a form to update the background images(This is currently only available with the ini file), look into porting the application to mobile(probably with an api and kivy).
 
 ----------------------
 Some ideas for the future
