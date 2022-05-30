@@ -3,7 +3,9 @@ Hosting the file on icedrive until i publish it
 basic usage:
 ----------------
 open image in new tab/open image link .jpeg/.gif, etc = images(can work with some proxies)
+
 youtube.com/watch/ = to create playlists and filter iframes
+
 /channel/ = to pull out the bookmarked channel
 
 it can pull these out of your bookmarks or you can just add them directly to the application
