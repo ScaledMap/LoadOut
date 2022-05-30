@@ -18,22 +18,35 @@ Title
 Loadout
 -------
 
-LoadOut is a Bookmark manager I've been working on to help manage and organize my bookmarks. It's a Pywebview application built on flask. You can run it as a server or as a webview.  It allows you to import your bookmarks from firefox and create categories to interact with those bookmarks. It would also probably be useful for situations where you want to avoid messing with the keyboard. There was a time where i was using opera because speeddial was useful. I'd kind of like it to be a more flexible alternative to something like pocket or speedial. My advice would be to run it as a server. You can set loadout to boot at startup and make it your homepage.  Another option would be to change the icon(so it looks like firefox) and run it as a server. it will try and open your default browser when you click on the exe if its set to run as a server.
+LoadOut is a Bookmark manager I've been working on to help manage and organize my bookmarks. It's a Pywebview application built on flask. You can run it as a server or as a webview.  It allows you to import your bookmarks from firefox and create categories to interact with those bookmarks. It would also probably be useful for situations where you want to avoid messing with the keyboard. There was a time where i was using opera because speeddial was useful. I'd kind of like it to be a more flexible alternative to something like pocket or speedial. My advice would be to run it as a server. You can set loadout to boot at startup and make it your homepage.  Another option would be to change the icon(so it looks like firefox or whatever your default browser is) and run it as a server. it will try and open your default browser when you click on the exe.
 
-You could also use this with librewolf or an alternative browser. Some of the more privacy focused browsers don't do cookies by default. Bookmarks would be useful in that case.
+You could also use this with librewolf or an alternative browser. Some of the more privacy focused browsers don't do cookies by default. This would be really useful with something like librewolf.
 
-You could also use the webview as a browser. Kind of a limited experience but you could try it.
+You could also use the webview as a browser. Kind of a limiting experience but you could try it. Pywebview doesn't default to persistent cookies. History won't show up when you open links in the webview. Stumbleupon(guess its "cloudhiker now... lol lost the domain") works well in the webview. You can add bookmarks through the webview like you normally would in the browser.
+
+
+-------------------------------------------
+Downloads
+-------------------------------------------
+*The windows application needs to be repackaged with latest updates
+
+windows 
+download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
+
+linux 
+download link= https://icedrive.net/s/2z81w3Pu7wjk1kkV5v6XZf3GCWkh
+
 
 ----------------------------------------
  updates
 -----------------------------------------
-The linux application has been updated. The windows application is way behind the linux build at the moment
+The linux application has been updated. The windows application is way behind the linux build at the moment. 
 
 The linux application is pretty usuable at the moment. I use the application everyday and have close to 1000 bookmarks lol. Even if i do update the tables, I will go out of my way to not mess up my current set up. 
 
-edit may 30: Added an option to open youtube links as a youtube playlist. It will create a playlist from all the youtube videos in the category. Kind of a clever solution to putting together a simple way to play music. Way easier than selenium or using the api. Cleaned up the images section. can edit and remove images from the images section. Cleaned up a bunch of bugs. Images only show up if they are added to the photos category at the moment. That isn't the ideal behavior, I just need to think about how i will handle them. Also added basic obfiscation to the notes webapp. You can convert the notes back and forth between plain text and the encoding. probably add more encodings later.
+edit may 30: Added an option to open youtube links as a youtube playlist. It will create a playlist from all the youtube videos in a category. Kind of a clever solution to putting together a simple way to play music. Way easier than selenium or using the api. Cleaned up the images section. can edit and remove images from the images section. Cleaned up a bunch of bugs. Images only show up if they are added to the photos category at the moment. That isn't the ideal behavior, I just need to think about how i will handle them. Also added basic obfiscation to the notes webapp. You can convert the notes back and forth between plain text and the encoding. probably add more encodings later.
 
-edit may 16: changed the background for the categoriess section. It can be adjusted in the customize.ini file. Design feels 100 percent better now. I have a ton of bookmarks so sometimes bugs slip through when i test it without my bookmarks in the database.
+edit may 16: changed the background for the categories section. It can be adjusted in the customize.ini file. Design feels 100 percent better now. I have a ton of bookmarks so sometimes bugs slip through when i test it without my bookmarks in the database.
 
 edit may 14:Fixed a bug with the filepicker. Added A bigscreen mode that kind of looks like speeddial. It isn't set as the default loadin because it looks a little wonky if there arent many bookmarks in a category. Added the foundation for a feedreading webapp. refractored the application a bit. Going to rearange the database around images and rss. 
 
@@ -62,16 +75,7 @@ If you don't provide information about a website, it will try and scrape the web
 
 If you try and import your bookmarks a second time, it will only add your newly added bookmarks. You can update the application by importing your firefox bookmarks multiple times. 
 
--------------------------------------------
-Downloads
--------------------------------------------
-*The windows application needs to be repackaged with latest updates
 
-windows 
-download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
-
-linux 
-download link= https://icedrive.net/s/2z81w3Pu7wjk1kkV5v6XZf3GCWkh
 
 
 The android application is hosted on github.
