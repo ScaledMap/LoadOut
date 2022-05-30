@@ -1,7 +1,5 @@
 
-LoadOut is a Bookmark manager I've been working on to help manage and organize my bookmarks. It's a Pywebview application built on flask. You can run it as a server or as a webview.  It allows you to import your bookmarks from firefox and create categories to interact with those bookmarks. It would also probably be useful for situations where you want to avoid messing with the keyboard. There was a time where i was using opera because speeddial was useful. I'd kind of like it to be a more flexible alternative to something like pocket or speedial. Still kind of a work in progress. I'll probably upload the python script in a bit. I kind of just pick at this when i get bored. Add stuff I think is cool. My advice would be to run it as a server. You can set loadout to boot at startup and make it your homepage.  Another option would be to change the icon(so it looks like firefox) and run it as a server. it will try and open your default browser when you click on the exe if its set to run as a server.
-
-It also probably has utilty if you are kind of paranoid and hate making accounts. I have crazy social anxiety lol. The webview doesnt have persistent cookies. Bookmarking stuff is one solution to not using cookies. Could keep everything written down in the soon to be encrypted notes section of the application. Won't remember history if it's running as a webview. Kind of unique way to browse the web. Your user agent will show up as the webkit. I might add an option to turn off looking up favicons. The console will also tell you literally everything that is going on in the webview. Every metapixel, every crosssite cookie, all those things will show up in the console.
+LoadOut is a Bookmark manager I've been working on to help manage and organize my bookmarks. It's a Pywebview application built on flask. You can run it as a server or as a webview.  It allows you to import your bookmarks from firefox and create categories to interact with those bookmarks. It would also probably be useful for situations where you want to avoid messing with the keyboard. There was a time where i was using opera because speeddial was useful. I'd kind of like it to be a more flexible alternative to something like pocket or speedial. My advice would be to run it as a server. You can set loadout to boot at startup and make it your homepage.  Another option would be to change the icon(so it looks like firefox) and run it as a server. it will try and open your default browser when you click on the exe if its set to run as a server.
 
 You could also use this with librewolf or an alternative browser. Some of the more privacy focused browsers don't do cookies by default. Bookmarks would be useful in that case.
 
@@ -12,6 +10,7 @@ about and updates
 -----------------------------------------
 The linux application has been updated. The windows application is way behind the linux build at the moment
 
+edit may 30: the music category now has an option to open your youtube links in that category in a playlist. Kind of a clever solution to putting together a simple way to play music. Way easier than selenium or using the api. Cleaned up the images section. can edit and remove images from the images section. Cleaned up a bunch of bugs. Images only show up if they are added to the photos category at the moment. That isn't the ideal behavior I just need to think about how i handle that for a bit. 
 
 edit may 16: changed the background for the categoriess section. It can be adjusted in the customize.ini file. Design feels 100 percent better now. I have a ton of bookmarks so sometimes bugs slip through when i test it without my bookmarks in the database.
 
@@ -49,7 +48,7 @@ windows
 download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
 
 linux 
-download link= https://icedrive.net/s/RWaRyRQkVVyga1gbWftDvhfyz1F4
+download link= https://icedrive.net/s/6Z4PaF5k8YRF3AW39GXzjChjiZaC
 
 
 The android application is hosted on github.
