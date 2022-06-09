@@ -2,14 +2,16 @@ Hosting the file on icedrive until i publish it
 
 basic usage:
 ----------------
-open image in new tab/open image link .jpeg, .gif, etc = images(can work with some proxies)
+open image in new tab/open image link/ to save images. its usually better to pull images out of websites directly. googles images, and bing images, etc. are a work in progress.
 
-youtube.com/watch/ = to create playlists and filter iframes
+looks for filetype e.g .jpeg, .gif, or some search engine proxies work
 
-/channel/ = to pull out the bookmarked channel
+youtube.com/watch/ = to create playlists and filter iframes and construct playlists out of the videos
+
+/channel/ = to pull out the bookmarked channel and channel videos
 
 it can pull these out of your bookmarks or you can just add them directly to the application
-@secret/@hidden = default password
+@secret/@hidden == default password
 
 you can add anything you want but those urls will be sorted into the appropriate categories by default. so yeah... Kind of gives your bookmarks more utility. 
 
@@ -42,7 +44,11 @@ download link= https://icedrive.net/s/Z333DR8wAXXy7wPS2fDPvD23kCRg
 -----------------------------------------
 The linux application has been updated. The windows application is way behind the linux build at the moment. 
 
-The linux application is pretty usuable at the moment. I use the application everyday and have close to 1000 bookmarks lol. Even if i do update the tables, I will go out of my way to not mess up my current set up. 
+The linux application is pretty usuable at the moment. I use the application everyday and have close to 1000 bookmarks lol. Even if i do update the tables, I will go out of my way to not mess up my current setup. 
+
+edit june 9: You can create youtube playlists out of any category. It will pull the youtube/watch links out and add them to a youtube playlist. The music section for example would play all the music added to that section where /watch is in the route.
+you can fitler by category through the search bar now. For example, searching 'music' will pull up all the bookmarks in the music category. 
+the photos category is a mix of filtered image types and whatever a user adds to that category. photos should be sorted out of the normal bookmarks by default. Lots of little bug fixes added. It should boot faster, more reliably and in more browsers now.
 
 edit may 30: Added an option to open youtube links as a youtube playlist. It will create a playlist from all the youtube videos in a category. Kind of a clever solution to putting together a simple way to play music. Way easier than selenium or using the api. Cleaned up the images section. can edit and remove images from the images section. Cleaned up a bunch of bugs. Images only show up if they are added to the photos category at the moment. That isn't the ideal behavior, I just need to think about how i will handle them. Also added basic obfiscation to the notes webapp. You can convert the notes back and forth between plain text and the encoding. probably add more encodings later.
 
