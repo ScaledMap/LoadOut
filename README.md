@@ -11,6 +11,8 @@ youtube.com/watch/ = to create playlists and filter iframes and construct playli
 /channel/ = to pull out the bookmarked channel and channel videos
 
 it can pull these out of your bookmarks or you can just add them directly to the application
+
+
 @secret/@hidden == default password
 
 you can add anything you want but those urls will be sorted into the appropriate categories by default. so yeah... Kind of gives your bookmarks more utility. 
