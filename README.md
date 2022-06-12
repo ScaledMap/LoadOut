@@ -85,7 +85,7 @@ The linux application has been updated. The windows application is way behind th
 
 The linux application is pretty usuable at the moment. I use the application everyday and have close to 1000 bookmarks lol. Even if i do update the tables, I will go out of my way to not mess up my current setup. 
 
-edit june 12: fixed a bug with the playlists forgot i had to do same thing in the cardview. But in the display default fitlers. Changed how the default filters popululate in the cardview.
+edit june 12: fixed a bug with playlists in the cardview. Fixed a bug in the default filters. Changed how the default filters popululate in the cardview.
 
 edit june 9: You can create youtube playlists out of any category. It will pull the youtube/watch links out and add them to a youtube playlist. The music section for example would play all the music added to that section where /watch is in the route.
 you can fitler by category through the search bar now. For example, searching 'music' will pull up all the bookmarks in the music category. 
