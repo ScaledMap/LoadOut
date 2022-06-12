@@ -16,6 +16,8 @@ it can pull these out of your bookmarks or you can just add them directly to the
 you can add anything you want but those urls will be sorted into the appropriate categories by default. so yeah... Kind of gives your bookmarks more utility. 
 
 Title
+
+
 -------
 Loadout
 -------
@@ -36,27 +38,8 @@ windows
 download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
 
 linux 
-download link= https://icedrive.net/s/x5DPjt7xaNyZbjZNvzv4Q5932x6V
+download link= https://icedrive.net/s/gPCVZ9XwtfTjhi4bS3DxtDWtYPtS
 
-
-----------------------------------------
- updates
------------------------------------------
-The linux application has been updated. The windows application is way behind the linux build at the moment. 
-
-The linux application is pretty usuable at the moment. I use the application everyday and have close to 1000 bookmarks lol. Even if i do update the tables, I will go out of my way to not mess up my current setup. 
-
-edit june 9: You can create youtube playlists out of any category. It will pull the youtube/watch links out and add them to a youtube playlist. The music section for example would play all the music added to that section where /watch is in the route.
-you can fitler by category through the search bar now. For example, searching 'music' will pull up all the bookmarks in the music category. 
-the photos category is a mix of filtered image types and whatever a user adds to that category. photos should be sorted out of the normal bookmarks by default. Lots of little bug fixes added. It should boot faster, more reliably and in more browsers now. Libreddit redirects should be more consistent. I need to just update the instance lists next time i get a chance. if a redirect doesn't work, it's likely that those instances don't exist anymore.
-
-edit may 30: Added an option to open youtube links as a youtube playlist. It will create a playlist from all the youtube videos in a category. Kind of a clever solution to putting together a simple way to play music. Way easier than selenium or using the api. Cleaned up the images section. can edit and remove images from the images section. Cleaned up a bunch of bugs. Images only show up if they are added to the photos category at the moment. That isn't the ideal behavior, I just need to think about how i will handle them. Also added basic obfiscation to the notes webapp. You can convert the notes back and forth between plain text and the encoding. probably add more encodings later.
-
-edit may 16: changed the background for the categories section. It can be adjusted in the customize.ini file. Design feels 100 percent better now. I have a ton of bookmarks so sometimes bugs slip through when i test it without my bookmarks in the database.
-
-edit may 14:Fixed a bug with the filepicker. Added A bigscreen mode that kind of looks like speeddial. It isn't set as the default loadin because it looks a little wonky if there arent many bookmarks in a category. Added the foundation for a feedreading webapp. refractored the application a bit. Going to rearange the database around images and rss. 
-
-edit may 13:Added a default background image. edit:made background image fixed. You can switch it back to colors as the default backtround in the customize.ini file. Set the [background-image][image]= None. Without quotes. You can also set the bookmarks background image this way. It will add whatver path you write in the .ini file. Fixed a bug where order wasn't working when loaded from the cardview. Added a notetaking webapp to the project. YOu can create notes based on category. This is in the cardview section(might add an option for basic encryption/obfiscation for notes). The application will open reddit links with a random libreddit instance now(still need to clean that code up a bit. Ideally everything could be tweaked from the files). It's the same button as "convert youtube to invidious". You can add bookmarks to the application from the webview now. importing bookmarks from firefox is still probably the best option though. 
 
 
 -------
@@ -91,6 +74,32 @@ I quit working on the android application a while back. Got tired of repackaging
 Todo list
 ----------------------------------------------
 Paginate the extracted youtube videos, maybe add a checkbox option for seperate music playlists(shuffle plays everything in the music section atm) improve how the application scrapes libreddit, fix up the "speeddial" page, continue working on the feedreader, if i decide to add m3u support, it'd probably be through vlc, WORK UP THE NERVE TO PUBLISH THE APPLICATION, clean up the positioning on a few of the pages, look into building a fireefox extension to dynaimically add bookmarks, add libreddit instances as its own button, add a filepicker or a form to update the background images(This is currently only available with the ini file), look into porting the application to mobile(probably with an api and kivy).
+
+
+
+
+----------------------------------------
+ updates
+-----------------------------------------
+The linux application has been updated. The windows application is way behind the linux build at the moment. 
+
+The linux application is pretty usuable at the moment. I use the application everyday and have close to 1000 bookmarks lol. Even if i do update the tables, I will go out of my way to not mess up my current setup. 
+
+edit june 12: fixed a bug with the playlists forgot i had to do same thing in the cardview. But in the display default fitlers. Changed how the default filters popululate in the cardview.
+
+edit june 9: You can create youtube playlists out of any category. It will pull the youtube/watch links out and add them to a youtube playlist. The music section for example would play all the music added to that section where /watch is in the route.
+you can fitler by category through the search bar now. For example, searching 'music' will pull up all the bookmarks in the music category. 
+the photos category is a mix of filtered image types and whatever a user adds to that category. photos should be sorted out of the normal bookmarks by default. Lots of little bug fixes added. It should boot faster, more reliably and in more browsers now. Libreddit redirects should be more consistent. I need to just update the instance lists next time i get a chance. if a redirect doesn't work, it's likely that those instances don't exist anymore.
+
+edit may 30: Added an option to open youtube links as a youtube playlist. It will create a playlist from all the youtube videos in a category. Kind of a clever solution to putting together a simple way to play music. Way easier than selenium or using the api. Cleaned up the images section. can edit and remove images from the images section. Cleaned up a bunch of bugs. Images only show up if they are added to the photos category at the moment. That isn't the ideal behavior, I just need to think about how i will handle them. Also added basic obfiscation to the notes webapp. You can convert the notes back and forth between plain text and the encoding. probably add more encodings later.
+
+edit may 16: changed the background for the categories section. It can be adjusted in the customize.ini file. Design feels 100 percent better now. I have a ton of bookmarks so sometimes bugs slip through when i test it without my bookmarks in the database.
+
+edit may 14:Fixed a bug with the filepicker. Added A bigscreen mode that kind of looks like speeddial. It isn't set as the default loadin because it looks a little wonky if there arent many bookmarks in a category. Added the foundation for a feedreading webapp. refractored the application a bit. Going to rearange the database around images and rss. 
+
+edit may 13:Added a default background image. edit:made background image fixed. You can switch it back to colors as the default backtround in the customize.ini file. Set the [background-image][image]= None. Without quotes. You can also set the bookmarks background image this way. It will add whatver path you write in the .ini file. Fixed a bug where order wasn't working when loaded from the cardview. Added a notetaking webapp to the project. YOu can create notes based on category. This is in the cardview section(might add an option for basic encryption/obfiscation for notes). The application will open reddit links with a random libreddit instance now(still need to clean that code up a bit. Ideally everything could be tweaked from the files). It's the same button as "convert youtube to invidious". You can add bookmarks to the application from the webview now. importing bookmarks from firefox is still probably the best option though. 
+
+
 
 ----------------------
 Some ideas for the future
