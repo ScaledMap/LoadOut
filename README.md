@@ -1,6 +1,6 @@
 recent update
 -------------
-paginated the youtube videos. will pull out /channels/ /c/ and /user/ urls and put them in the channel section. You might need to reload things if it doesnt pull the videos out of the channels. Same with the redirects to invidious and reddit.
+paginated the youtube videos. will pull out /channels/ /c/ and /user/ urls and put them in the channel section. You might need to reload things if it doesnt pull the videos out of the channels. Same with the redirects to invidious and reddit. To update the application you can just overwrite the old database file. Thats how i usually do things.
 
 Hosting the file on icedrive until i publish it
 
