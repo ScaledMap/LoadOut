@@ -1,3 +1,7 @@
+recent update
+-------------
+paginated the youtube videos. will pull out /channels/ /c/ and /user/ urls and put them in the channel section. You might need to reload things if it doesnt pull the videos out of the channels. Same with the redirects to invidious and reddit.
+
 Hosting the file on icedrive until i publish it
 
 basic usage:
@@ -40,7 +44,7 @@ windows
 download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
 
 linux 
-download link= https://icedrive.net/s/gPCVZ9XwtfTjhi4bS3DxtDWtYPtS
+download link= https://icedrive.net/s/6wXw3Bxia5iAXQRDgSSC97f1A74v
 
 
 
