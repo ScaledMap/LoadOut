@@ -14,16 +14,16 @@ basic usage:
 ----------------
 open image in new tab/open image link/ to save images. its usually better to pull images out of websites directly. googles images, and bing images, etc. are a work in progress.
 
-looks for filetype e.g .jpeg, .gif, or some search engine proxies work
+looks for filetype e.g .jpeg, .gif, or some search engine proxies work. Should support any filetype listed on firefox's documentation.
 
-youtube.com/watch = to filter iframes and construct playlists out of categories
+youtube.com/watch = to filter iframes and construct playlists out of categories(great for creating music playlists)
 
-/channel/, /c/, /user/ = to pull out the bookmarked channel and channel videos
+/channel/, /c/, /user/ = to pull out the bookmarked channel videos
 
-it can pull these out of your bookmarks or you can just add them directly to the application
+it can pull these out of your bookmarks or you can just add them directly to the application and sort them yourself
 
 
-@secret/@hidden == default password
+@secret/@hidden == default passwords
 
 you can add anything you want but those urls will be sorted into the appropriate categories by default. so yeah... Kind of gives your bookmarks more utility. 
 
@@ -34,11 +34,11 @@ Title
 Loadout
 -------
 
-LoadOut is a Bookmark manager I've been working on to help manage and organize my bookmarks. It's a Pywebview application built on flask. You can run it as a server or as a webview.  It allows you to import your bookmarks from firefox and create categories to interact with those bookmarks. It would also probably be useful for situations where you want to avoid messing with the keyboard. There was a time where i was using opera because speeddial was useful. I'd kind of like it to be a more flexible alternative to something like pocket or speedial. My advice would be to run it as a server. You can set loadout to boot at startup and make it your homepage.  Another option would be to change the icon(so it looks like firefox or whatever your default browser is) and run it as a server. it will try and open your default browser when you click on the exe.
+LoadOut is a Bookmark manager I've been working on to help manage and organize my bookmarks. It's a Pywebview application built on flask. You can run it as a server or as a webview.  It allows you to import your bookmarks from firefox and create categories to interact with those bookmarks. It would also probably be useful for situations where you want to avoid messing with the keyboard. There was a time where i was using opera because speeddial was useful. I'd kind of like it to be a more flexible alternative to something like pocket or speedial. Works across browsers at least. My advice would be to run it as a server. You can set loadout to boot at startup and make it your homepage.  Another option would be to change the icon(so it looks like firefox or whatever your default browser is) and run it as a server. it will try and open your default browser when you click on the exe.
 
 You could also use this with librewolf or an alternative browser. Some of the more privacy focused browsers don't do cookies by default. This would be really useful with something like librewolf.
 
-You could also use the webview as a browser. Kind of a limiting experience but you could try it. Pywebview doesn't default to persistent cookies. History won't show up when you open links in the webview. Stumbleupon(guess its "cloudhiker now... lol lost the domain") works well in the webview. You can add bookmarks through the webview like you normally would in the browser.
+You could also use the webview as a browser. Kind of a limiting experience but you could try it. Pywebview doesn't default to persistent cookies. History won't show up when you open links in the webview. Stumbleupon(guess its "cloudhiker now... lol lost the domain") works well in the webview. You can add bookmarks through the webview like you normally would in the browser. Works well if you want to keep stumbleupon stuff seperate from normal bookmarks.
 
 
 -------------------------------------------
@@ -57,7 +57,7 @@ download link= https://icedrive.net/s/ZYGZkv9ytjkFgY9YYR72Nztv2h8W
 -------
 features/
 -------
-atomatically sorts out images. Added navigation options if you want to open up a url inside a webview. Sorts out youtube channels by default. You can see the most recent videos on bookmarked youtube channels. Added an option to open youtube links in a random invidious instance or libreddit instance. Added a search bar to search through all your bookmarks and a search bar for icons. There is a cardview section which is an alternative to using the dropdown(noscript will break the dropdown). You can choose what bookmarks open when the application is loaded. You can choose what page is loaded in general. Most of the features are in the settings section. The invidious links option parses the github .json file. You can be update the instance list by just replaceing the json file with the redownloaded json list https://api.invidious.io/. It's saved as instances.json in the static folder. I think the kevinrocks instance is dead. That isn't an error in the application. A few of the instances on the list went down in the last week or so.
+atomatically sorts out images. Added navigation options if you want to open up a url inside a webview. Sorts out youtube channels by default. You can see the most recent videos on bookmarked youtube channels. Added an option to open youtube links in a random invidious instance or libreddit instance. Added a search bar to search through all your bookmarks and a search bar for icons. There is a cardview section which is an alternative to using the dropdown(noscript will break the dropdown). Can color code categories. You can choose what bookmarks open when the application is loaded. You can choose what page is loaded in general. Most of the features are in the settings section. Customizeable backgrounds. The invidious links option parses the github .json file. You can be update the instance list by just replaceing the json file with the redownloaded json list https://api.invidious.io/. It's saved as instances.json in the static folder. I think the kevinrocks instance is dead. That isn't an error in the application. A few of the instances on the list went down in the last week or so.
 
 
 
