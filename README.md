@@ -4,7 +4,7 @@ june 15:
 
 Added forms to customize background images. Backgrounds are set as a mate walpaper at the moment. Clicking restore to default will revert to the old background images. Setting the color will set background images to None. No longer have to customize things from the ini file. You will probably need to add custom background images to the static folder. They should also be fairly big images. 
 
-paginated the youtube videos. will pull out /channels/ /c/ and /user/ urls and put them in the channel section. You might need to reload things if it doesnt pull the videos out of the channels. Same with the redirects to invidious and reddit. To update the application, you can just overwrite the old database file. Thats how i usually do things. Sorry if the redirects have been a little hit or miss. Invidious should be running better at least. Parsing randoms strings to create the redirects can be kind of boring. kind of put off doing that stuff the corrrect way. Invidious is working better at least. Decided to parse the json file instead of the html file. Probably going to make a json file for libredit eventually. It's a better way to do things.
+paginated the youtube videos. will pull out /channels/ /c/ and /user/ urls and put them in the channel section. You might need to reload things if it doesnt pull the videos out of the channels. Same with the redirects to invidious and reddit. To update the application, you can just overwrite the old database file. Thats how i usually do things.  Invidious is working better now. Decided to parse the json file instead of the html file. Probably going to make a json file for libredit eventually. It's a better way to do things.
 
 crap... forgot to fix the typo again lol...
 
