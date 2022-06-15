@@ -12,6 +12,8 @@ Hosting the file on icedrive until i publish it
 
 basic usage:
 ----------------
+ I usually do pretty much everything on the web at point. This type if thing works great for how i use computers
+
 open image in new tab/open image link/ to save images. its usually better to pull images out of websites directly. googles images, and bing images, etc. are a work in progress.
 
 looks for filetype e.g .jpeg, .gif, or some search engine proxies work. Should support any filetype listed on firefox's documentation.
