@@ -16,9 +16,9 @@ open image in new tab/open image link/ to save images. its usually better to pul
 
 looks for filetype e.g .jpeg, .gif, or some search engine proxies work
 
-youtube.com/watch/ = to create playlists and filter iframes and construct playlists out of the videos
+youtube.com/watch = to filter iframes and construct playlists out of categories
 
-/channel/ = to pull out the bookmarked channel and channel videos
+/channel/, /c/, /user/ = to pull out the bookmarked channel and channel videos
 
 it can pull these out of your bookmarks or you can just add them directly to the application
 
@@ -57,7 +57,7 @@ download link= https://icedrive.net/s/ZYGZkv9ytjkFgY9YYR72Nztv2h8W
 -------
 features/
 -------
-atomatically sorts out images. Added navigation options if you want to open up a url inside a webview. Sorts out youtube channels by default. You can see the most recent videos on bookmarked youtube channels. The last five videos. Added an option to open youtube links in a random invidious instance. Added a search bar to search through all your bookmarks and asearch bar for icons. There is a cardview section which is an alternative to using the dropdown. You can choose what bookmarks open when the application is loaded. You can choose what page is loaded in general. Most of the features are in the settings section. The invidious links option parses the invidious instance list. You can be update the instance list by just replaceing the html file with the redownloaded invidious instance list https://redirect.invidious.io/. Save the html page and overwrite the old one. I think the kevinrocks instance is dead. That isn't an error in the application. A few of the instances on the list went down in the last week or so.
+atomatically sorts out images. Added navigation options if you want to open up a url inside a webview. Sorts out youtube channels by default. You can see the most recent videos on bookmarked youtube channels. Added an option to open youtube links in a random invidious instance or libreddit instance. Added a search bar to search through all your bookmarks and a search bar for icons. There is a cardview section which is an alternative to using the dropdown(noscript will break the dropdown). You can choose what bookmarks open when the application is loaded. You can choose what page is loaded in general. Most of the features are in the settings section. The invidious links option parses the github .json file. You can be update the instance list by just replaceing the json file with the redownloaded json list https://api.invidious.io/. It's saved as instances.json in the static folder. I think the kevinrocks instance is dead. That isn't an error in the application. A few of the instances on the list went down in the last week or so.
 
 
 
@@ -85,7 +85,7 @@ I quit working on the android application a while back. Got tired of repackaging
 
 Todo list
 ----------------------------------------------
-Paginate the extracted youtube videos, update instance lists, fix redirect from the index to libreddit and invidious, export bookmarks button. Add filters for search engine proxies. Probably just going to stop messing with it after that.
+Paginate the extracted youtube videos, update instance lists, fix redirect from the index to libreddit and invidious, export bookmarks button. Add filters for search engine proxies. I usually do pretty much everything on the web at point. This type if thing works great for how i use computers.
 
 
 
