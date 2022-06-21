@@ -1,6 +1,6 @@
 recent update
 -------------
-june 21:Fixed a bug in the cardview where cards wouldn't propegate properly if the title was too long. Added a hash to unfilter values. if you want to hide a value fromt the filters, type @hide in the description. I made it so bookmarks added from the webview get added to a category called webview. Good way to keep stumbleupon bookmarks seperate. That website will kind of dramatically increase how many bookmarks you have lol.
+june 21:Added a default category called devenv. Think it's a cool idea for a default category. Has jsfiddle, bash, python repls running in the browser. Fixed a bug in the cardview where cards wouldn't propegate properly if the title was too long. Added a hash to unfilter values. if you want to hide a value fromt the filters, type @hide in the description. I made it so bookmarks added from the webview get added to a category called webview. Good way to keep stumbleupon bookmarks seperate. That website will kind of dramatically increase how many bookmarks you have lol.
 
 Found the drive i was packaging the windows application on. My windows boot is borked. reinstalling. Should be able to get that working though. I guess some random update broke the install. Plan on updating the windows version in the next update. It hasn't been updated in a really, really long time.
 
@@ -56,7 +56,7 @@ windows
 download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
 
 linux 
-download link= https://icedrive.net/s/C1PQxwV18B6yukxDDCG9T3bTfb69
+download link= https://icedrive.net/s/B64v9wB9w9NygQah4Xu2A3i1B6uz
 
 
 
