@@ -1,6 +1,6 @@
 recent update
 -------------
-Looking into adding youtube-dl checkbox too the +bookmark route. Next time I work on the application
+
 
 june 21:Added a default category called devenv. Think it's a cool idea for a default category. Has jsfiddle, bash, python repls running in the browser. Fixed a bug in the cardview where cards wouldn't propegate properly if the title was too long. Added a hash to unfilter values. if you want to hide a value fromt the filters, type @hide in the description. I made it so bookmarks added from the webview get added to a category called webview. Good way to keep stumbleupon bookmarks seperate. That website will kind of dramatically increase how many bookmarks you have lol.
 
