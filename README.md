@@ -1,5 +1,9 @@
 recent update
 -------------
+june 21:Fixed a bug in the cardview where cards wouldn't propegate properly if the title was too long. Added a hash to unfilter values. if you want to hide a value fromt the filters, type @hide in the description. I made it so bookmarks added from the webview get added to a category called webview. Good way to keep stumbleupon bookmarks seperate. That website will kind of dramatically increase how many bookmarks you have lol.
+
+Found the drive i was packaging the windows application on. My windows boot is borked. reinstalling. Should be able to get that working though. I guess some random update broke the install. Plan on updating the windows version in the next update. It hasn't been updated in a really, really long time.
+
 june 15:
 
 Added forms to customize background images. Backgrounds are set as a mate walpaper at the moment. Clicking restore to default will revert to the old background images. Setting the color will set background images to None. No longer have to customize things from the ini file. You will probably need to add custom background images to the static folder. They should also be fairly big images. 
@@ -52,7 +56,7 @@ windows
 download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
 
 linux 
-download link= https://icedrive.net/s/ZYGZkv9ytjkFgY9YYR72Nztv2h8W
+download link= https://icedrive.net/s/C1PQxwV18B6yukxDDCG9T3bTfb69
 
 
 
