@@ -1,6 +1,7 @@
 recent update
 -------------
 
+june 22: webview category wasn't showing up. Similar to how imported category works. Just behaves a little differently. Didn't occur to me at the time. just made it a default on the dropdown instead. Created a version with download options. Not sure if i want to keep that in or not. Probably will though. that's why i made a new download link.
 
 june 21:Added a default category called devenv. Think it's a cool idea for a default category. Has jsfiddle, bash, python repls running in the browser. Fixed a bug in the cardview where cards wouldn't propegate properly if the title was too long. Added a hash to unfilter values. if you want to hide a value fromt the filters, type @hide in the description. I made it so bookmarks added from the webview get added to a category called webview. Good way to keep stumbleupon bookmarks seperate. That website will kind of dramatically increase how many bookmarks you have lol.
 
@@ -62,7 +63,7 @@ download link= https://icedrive.net/s/B64v9wB9w9NygQah4Xu2A3i1B6uz
 
 linux download link with dl
 
-download link= https://icedrive.net/s/WzbPVNxw57DjZNiujZV9AjCS8zjj
+download link= https://icedrive.net/s/a3hQhFAgNWPTZ1Sa1wBgXaT2G74D
 
 
 really basic download options. should open exe in a terminal to view download percentage
