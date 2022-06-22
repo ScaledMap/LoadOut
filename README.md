@@ -60,6 +60,9 @@ download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
 linux 
 download link= https://icedrive.net/s/B64v9wB9w9NygQah4Xu2A3i1B6uz
 
+linux download link with dl
+download link= https://icedrive.net/s/3tQFkVARBG8Qg467QN1GYCR8ubFF
+really basic download options. should open exe in a terminal to view download percentage
 
 
 -------
