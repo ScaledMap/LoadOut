@@ -1,19 +1,7 @@
 recent update
 -------------
 
-june 22: webview category wasn't showing up. Similar to how imported category works. Just behaves a little differently. Didn't occur to me at the time. just made it a default on the dropdown instead. Created a version with download options. Not sure if i want to keep that in or not. Probably will though. that's why i made a new download link.
-
-june 21:Added a default category called devenv. Think it's a cool idea for a default category. Has jsfiddle, bash, python repls running in the browser. Fixed a bug in the cardview where cards wouldn't propegate properly if the title was too long. Added a hash to unfilter values. if you want to hide a value fromt the filters, type @hide in the description. I made it so bookmarks added from the webview get added to a category called webview. Good way to keep stumbleupon bookmarks seperate. That website will kind of dramatically increase how many bookmarks you have lol.
-
-Found the drive i was packaging the windows application on. My windows boot is borked. reinstalling. Should be able to get that working though. I guess some random update broke the install. Plan on updating the windows version in the next update. It hasn't been updated in a really, really long time.
-
-june 15:
-
-Added forms to customize background images. Backgrounds are set as a mate walpaper at the moment. Clicking restore to default will revert to the old background images. Setting the color will set background images to None. No longer have to customize things from the ini file. You will probably need to add custom background images to the static folder. They should also be fairly big images. 
-
-paginated the youtube videos. will pull out /channels/ /c/ and /user/ urls and put them in the channel section. You might need to reload things if it doesnt pull the videos out of the channels. Same with the redirects to invidious and reddit. To update the application, you can just overwrite the old database file. Thats how i usually do things.  Invidious is working better now. Decided to parse the json file instead of the html file. Probably going to make a json file for libredit eventually. It's a better way to do things.
-
-crap... forgot to fix the typo again lol...
+Guess there is an online version of vscode. Added that. Cleaned up default youtube and reddit categories
 
 Hosting the file on icedrive until i publish it
 
@@ -63,7 +51,7 @@ download link= https://icedrive.net/s/B64v9wB9w9NygQah4Xu2A3i1B6uz
 
 linux download link with dl
 
-download link= https://icedrive.net/s/a3hQhFAgNWPTZ1Sa1wBgXaT2G74D
+download link= https://icedrive.net/s/8PfZBXfYh8tCYNACBFg4fY1Qt7Q3
 
 
 really basic download options. should open exe in a terminal to view download percentage
