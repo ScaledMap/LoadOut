@@ -1,9 +1,11 @@
 recent updates
 -------------
 
-There is a button in the protected bookmars that doesn't do anything right now. That's going to up open a form to add bookmarks. You shouldn't have to logout and back in to add new bookmarks to the protected section.
+There is a button in the protected bookmars that doesn't do anything right now. That's going to up open a form to add bookmarks to the protected section. You shouldn't have to logout and back in to add new bookmarks to the protected section.
 
-july 4th: The playlist link shouldn't show up anymore if there aren\t any youtube videos in a category. The youtube videos filter would break if redirects were turned off. Fixed that. Added an option to enable https on localhost. Added plex iptv to the default entertainment category. Added my music playlist as a bookmark. ¯\_(ツ)_/¯ Hope you like 90s rock. Fixed a bunch of little bugs. 
+july 4th: The playlist link shouldn't show up anymore if there aren\t any youtube videos in a category. The youtube videos filter would break if redirects were turned off. Fixed that. Added an option to enable https on localhost. Added plex iptv to the default entertainment category. Added my music playlist as a bookmark. ¯\_(ツ)_/¯ Hope you like 90s rock. 
+
+fixed a lot of little bugs
 
 started messing with the application on raspberry pi. I was able to get the server working on the pi. I might have to disable the webview for that build. I'll post the ARM exe when I get it all worked out. 
 
