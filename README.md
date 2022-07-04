@@ -1,6 +1,7 @@
 recent updates
 -------------
 
+There is a button in the protected bookmars that doesn't do anything right now. That's going to up open a form to add bookmarks. You shouldn't have to logout and back in to add new bookmarks to the protected section.
 
 july 4th: The playlist link shouldn't show up anymore if there aren\t any youtube videos in a category. The youtube videos filter would break if redirects were turned off. Fixed that. Added an option to enable https on localhost. Added plex iptv to the default entertainment category. Added my music playlist as a bookmark. ¯\_(ツ)_/¯ Hope you like 90s rock. Fixed a bunch of little bugs. 
 
