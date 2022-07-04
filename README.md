@@ -1,7 +1,10 @@
-recent update
+recent updates
 -------------
 
-Guess there is an online version of vscode. Added that. Cleaned up default youtube and reddit categories
+
+july 4th: The playlist link shouldn't show up anymore if there aren\t any youtube videos in a category. The youtube videos filter would break if redirects were turned off. Fixed that. Added an option to enable https on localhost. Added plex iptv to the default entertainment category. Added my music playlist as a bookmark. ¯\_(ツ)_/¯ Hope you like 90s rock. Fixed a bunch of little bugs. 
+
+started messing with the application on raspberry pi. I was able to get the server working on the pi. I might have to disable the webview for that build. I'll post the ARM exe when I get it all worked out. 
 
 Hosting the file on icedrive until i publish it
 
@@ -13,16 +16,18 @@ open image in new tab/open image link/ to save images. its usually better to pul
 
 looks for filetype e.g .jpeg, .gif, or some search engine proxies work. Should support any filetype listed on firefox's documentation.
 
-youtube.com/watch = to filter iframes and construct playlists out of categories(great for creating music playlists)
+youtube.com/watch = to filter iframes and construct playlists out of categories
 
 /channel/, /c/, /user/ = to pull out the bookmarked channel videos
 
-it can pull these out of your bookmarks or you can just add them directly to the application and sort them yourself
+it will pull the routes out of your bookmarks by default. 
 
 
 @secret/@hidden == default passwords
 
-you can add anything you want but those urls will be sorted into the appropriate categories by default. so yeah... Kind of gives your bookmarks more utility. 
+you can add anything you want but those urls will be sorted into the appropriate categories by default.
+
+so yeah... Kind of gives your bookmarks more utility. 
 
 Title
 
@@ -47,18 +52,10 @@ windows
 download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
 
 linux 
-download link= https://icedrive.net/s/B64v9wB9w9NygQah4Xu2A3i1B6uz
-
-linux download link with dl
-
-download link= https://icedrive.net/s/8PfZBXfYh8tCYNACBFg4fY1Qt7Q3
-
-
-really basic download options. should open exe in a terminal to view download percentage
-
+download link= https://icedrive.net/s/7fTDBaNj9F12xRwX2g31j7jD5h8Y
 
 -------
-features/
+features
 -------
 atomatically sorts out images. Added navigation options if you want to open up a url inside a webview. Sorts out youtube channels by default. You can see the most recent videos on bookmarked youtube channels. Added an option to open youtube links in a random invidious instance or libreddit instance. Added a search bar to search through all your bookmarks and a search bar for icons. There is a cardview section which is an alternative to using the dropdown(noscript will break the dropdown). Can color code categories. You can choose what bookmarks open when the application is loaded. You can choose what page is loaded in general. Most of the features are in the settings section. Customizeable backgrounds. The invidious links option parses the github .json file. You can be update the instance list by just replaceing the json file with the redownloaded json list https://api.invidious.io/. It's saved as instances.json in the static folder. I think the kevinrocks instance is dead. That isn't an error in the application. A few of the instances on the list went down in the last week or so.
 
