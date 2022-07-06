@@ -1,5 +1,6 @@
 recent updates
 -------------
+Built an executable for the raspberry pi. I packaged it on an old pi. Worked in the pale moon browser(Kind of a gimped browser for the pi). That device has trouble running chromium. Was way easier than i thought it would be. Super happy with pyinstaller right now. Like... That device can't even open up youtube lol. Kind of cool that it ended up being a weird solution on a gheto development environment I have set up at my dads house. Lol can watch youtube there on a pi from 4 years ago(pi uses ubuntu now instead of debian. The old hardware has a tough time sometimes with software for the new pi's). It isn't the latest version of the application though. The most recent updates aren't in it. Cool I have it booting on a few systems.
 
 There is a button in the protected bookmars that doesn't do anything right now. That's going to up open a form to add bookmarks to the protected section. You shouldn't have to logout and back in to add new bookmarks to the protected section.
 
@@ -50,12 +51,16 @@ You could also use the webview as a browser. Kind of a limiting experience but y
 Downloads
 -------------------------------------------
 *The windows application needs to be repackaged with latest updates
+*only the server is working on the pi. I'm having trouble with the webview. I've had issues with python packages on raspberry pi in the past. Might just modify it so the server is the only option.
 
 windows 
 download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
 
 linux 
 download link= https://icedrive.net/s/7fTDBaNj9F12xRwX2g31j7jD5h8Y
+
+raspberry pi/ARM 32
+download link = https://icedrive.net/s/gFtW9iwzvk64QCyt5uGxFCNbfh6A
 
 -------
 features
