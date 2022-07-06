@@ -51,6 +51,7 @@ You could also use the webview as a browser. Kind of a limiting experience but y
 Downloads
 -------------------------------------------
 *The windows application needs to be repackaged with latest updates
+
 *only the server is working on the pi. I'm having trouble with the webview. I've had issues with python packages on raspberry pi in the past. Might just modify it so the server is the only option.
 
 windows 
