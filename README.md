@@ -4,24 +4,50 @@
 ?raw=true&sanitize=true "Optional Title")
 
 
-![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2010-04-15.png?raw=true "create, add icons, color coordinate and edit categories")
 ![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2010-05-27.png?raw=true)
 ![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2009-45-06.png?raw=true)
 
 
-recent updates
--------------
-Built an executable for the raspberry pi. I packaged it on an old pi. Worked in the pale moon browser(Kind of a gimped browser for the pi). That device has trouble running chromium. Was way easier than i thought it would be. Super happy with pyinstaller right now. Like... It isn't the latest version of the application though. The most recent updates aren't in it. Cool I have it booting on a few systems.
 
-There is a button in the protected bookmars that doesn't do anything right now. That's going to up open a form to add bookmarks to the protected section. You shouldn't have to logout and back in to add new bookmarks to the protected section.
+Title
 
-july 4th: The playlist link shouldn't show up anymore if there aren\t any youtube videos in a category. The youtube videos filter would break if redirects were turned off. Fixed that. Added an option to enable https on localhost. Added plex iptv to the default entertainment category. Added my music playlist as a bookmark. ¯\_(ツ)_/¯ Hope you like 90s rock. 
 
-fixed a lot of little bugs
+![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2010-06-16.png?raw=true "create, add icons, color coordinate and edit categories")
 
-started messing with the application on raspberry pi. I was able to get the server working on the pi. I might have to disable the webview for that build. I'll post the ARM exe when I get it all worked out. 
+-------
+Loadout
+-------
 
-Hosting the file on icedrive until i publish it
+LoadOut is a Bookmark manager I've been working on to help manage and organize my bookmarks. It's a Pywebview application built on flask. You can run it as a server or as a webview.  It allows you to import your bookmarks from firefox and create categories to interact with those bookmarks. It would also probably be useful for situations where you want to avoid messing with the keyboard. There was a time where i was using opera because speeddial was useful. I'd kind of like it to be a more flexible alternative to something like pocket or speedial. Works across browsers at least. My advice would be to run it as a server. You can set loadout to boot at startup and make it your homepage.  Another option would be to change the icon(so it looks like firefox or whatever your default browser is) and run it as a server. it will try and open your default browser when you click on the exe.
+
+You could also use this with librewolf or an alternative browser. Some of the more privacy focused browsers don't do cookies by default. This would be really useful with something like librewolf.
+
+You could also use the webview as a browser. Kind of a limiting experience but you could try it. Pywebview doesn't default to persistent cookies. History won't show up when you open links in the webview. Stumbleupon(guess its "cloudhiker now... lol lost the domain") works well in the webview. You can add bookmarks through the webview like you normally would in the browser. Works well if you want to keep stumbleupon stuff seperate from normal bookmarks.
+
+-------
+features
+-------
+atomatically sorts out images. Added navigation options if you want to open up a url inside a webview. Sorts out youtube channels by default. You can see the most recent videos on bookmarked youtube channels. Added an option to open youtube links in a random invidious instance or libreddit instance. Added a search bar to search through all your bookmarks and a search bar for icons. There is a cardview section which is an alternative to using the dropdown(noscript will break the dropdown). Can color code categories. You can choose what bookmarks open when the application is loaded. You can choose what page is loaded in general. Most of the features are in the settings section. Customizeable backgrounds. The invidious links option parses the github .json file. You can be update the instance list by just replaceing the json file with the redownloaded json list https://api.invidious.io/. It's saved as instances.json in the static folder. I think the kevinrocks instance is dead. That isn't an error in the application. A few of the instances on the list went down in the last week or so.
+
+
+![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2010-04-15.png?raw=true "create, add icons, color coordinate and edit categories")
+
+-------------------------------------------
+Downloads
+-------------------------------------------
+*The windows application needs to be repackaged with latest updates
+
+*only the server is working on the pi. I'm having trouble with the webview. I've had issues with python packages on raspberry pi in the past. Might just modify it so the server is the only option.
+
+windows 
+download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
+
+linux 
+download link= https://icedrive.net/s/Nv7yRgA5tSBiAtzgFiARxb1tjVG4
+
+raspberry pi/ARM 32
+download link = https://icedrive.net/s/gFtW9iwzvk64QCyt5uGxFCNbfh6A
+
 
 basic usage:
 ----------------
@@ -44,44 +70,6 @@ you can add anything you want but those urls will be sorted into the appropriate
 
 so yeah... Kind of gives your bookmarks more utility. 
 
-Title
-
-
-![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2010-06-16.png?raw=true "create, add icons, color coordinate and edit categories")
-
--------
-Loadout
--------
-
-LoadOut is a Bookmark manager I've been working on to help manage and organize my bookmarks. It's a Pywebview application built on flask. You can run it as a server or as a webview.  It allows you to import your bookmarks from firefox and create categories to interact with those bookmarks. It would also probably be useful for situations where you want to avoid messing with the keyboard. There was a time where i was using opera because speeddial was useful. I'd kind of like it to be a more flexible alternative to something like pocket or speedial. Works across browsers at least. My advice would be to run it as a server. You can set loadout to boot at startup and make it your homepage.  Another option would be to change the icon(so it looks like firefox or whatever your default browser is) and run it as a server. it will try and open your default browser when you click on the exe.
-
-You could also use this with librewolf or an alternative browser. Some of the more privacy focused browsers don't do cookies by default. This would be really useful with something like librewolf.
-
-You could also use the webview as a browser. Kind of a limiting experience but you could try it. Pywebview doesn't default to persistent cookies. History won't show up when you open links in the webview. Stumbleupon(guess its "cloudhiker now... lol lost the domain") works well in the webview. You can add bookmarks through the webview like you normally would in the browser. Works well if you want to keep stumbleupon stuff seperate from normal bookmarks.
-
-
--------------------------------------------
-Downloads
--------------------------------------------
-*The windows application needs to be repackaged with latest updates
-
-*only the server is working on the pi. I'm having trouble with the webview. I've had issues with python packages on raspberry pi in the past. Might just modify it so the server is the only option.
-
-windows 
-download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
-
-linux 
-download link= https://icedrive.net/s/Nv7yRgA5tSBiAtzgFiARxb1tjVG4
-
-raspberry pi/ARM 32
-download link = https://icedrive.net/s/gFtW9iwzvk64QCyt5uGxFCNbfh6A
-
--------
-features
--------
-atomatically sorts out images. Added navigation options if you want to open up a url inside a webview. Sorts out youtube channels by default. You can see the most recent videos on bookmarked youtube channels. Added an option to open youtube links in a random invidious instance or libreddit instance. Added a search bar to search through all your bookmarks and a search bar for icons. There is a cardview section which is an alternative to using the dropdown(noscript will break the dropdown). Can color code categories. You can choose what bookmarks open when the application is loaded. You can choose what page is loaded in general. Most of the features are in the settings section. Customizeable backgrounds. The invidious links option parses the github .json file. You can be update the instance list by just replaceing the json file with the redownloaded json list https://api.invidious.io/. It's saved as instances.json in the static folder. I think the kevinrocks instance is dead. That isn't an error in the application. A few of the instances on the list went down in the last week or so.
-
-
 
 -------------------------------------------
 Hidden bookmarks
@@ -100,6 +88,21 @@ If you try and import your bookmarks a second time, it will only add your newly 
 
 
 
+
+
+recent updates
+-------------
+Built an executable for the raspberry pi. I packaged it on an old pi. Worked in the pale moon browser(Kind of a gimped browser for the pi). That device has trouble running chromium. Was way easier than i thought it would be. Super happy with pyinstaller right now. Like... It isn't the latest version of the application though. The most recent updates aren't in it. Cool I have it booting on a few systems.
+
+There is a button in the protected bookmars that doesn't do anything right now. That's going to up open a form to add bookmarks to the protected section. You shouldn't have to logout and back in to add new bookmarks to the protected section.
+
+july 4th: The playlist link shouldn't show up anymore if there aren\t any youtube videos in a category. The youtube videos filter would break if redirects were turned off. Fixed that. Added an option to enable https on localhost. Added plex iptv to the default entertainment category. Added my music playlist as a bookmark. ¯\_(ツ)_/¯ Hope you like 90s rock. 
+
+fixed a lot of little bugs
+
+started messing with the application on raspberry pi. I was able to get the server working on the pi. I might have to disable the webview for that build. I'll post the ARM exe when I get it all worked out. 
+
+Hosting the file on icedrive until i publish it
 
 The android application is hosted on github.
 ----------------------------------------
