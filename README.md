@@ -1,24 +1,18 @@
-![Alt text](/Screenshot from 2022-05-16 09-45-06.
-
-
-?raw=true&sanitize=true "Optional Title")
-
-
-![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2010-05-27.png?raw=true)
-![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2009-45-06.png?raw=true)
 
 
 
-Title
 
-
-![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2010-06-16.png?raw=true "create, add icons, color coordinate and edit categories")
 
 -------
 Loadout
 -------
 
-LoadOut is a Bookmark manager I've been working on to help manage and organize my bookmarks. It's a Pywebview application built on flask. You can run it as a server or as a webview.  It allows you to import your bookmarks from firefox and create categories to interact with those bookmarks. It would also probably be useful for situations where you want to avoid messing with the keyboard. There was a time where i was using opera because speeddial was useful. I'd kind of like it to be a more flexible alternative to something like pocket or speedial. Works across browsers at least. My advice would be to run it as a server. You can set loadout to boot at startup and make it your homepage.  Another option would be to change the icon(so it looks like firefox or whatever your default browser is) and run it as a server. it will try and open your default browser when you click on the exe.
+LoadOut is a Bookmark manager I've been working on to help manage and organize my bookmarks. It's a Pywebview application built on flask. You can run it as a server or as a webview.  It allows you to import your bookmarks from firefox and create categories to interact with those bookmarks. It would also probably be useful for situations where you want to avoid messing with the keyboard. There was a time where i was using opera because speeddial was useful. I'd kind of like it to be a more flexible alternative to something like pocket or speedial. Works across browsers at least. 
+
+--------------
+Utility
+-------------
+My advice would be to run it as a server. You can set loadout to boot at startup and make it your homepage.  Another option would be to change the icon(so it looks like firefox or whatever your default browser is) and run it as a server. it will try and open your default browser when you click on the exe.
 
 You could also use this with librewolf or an alternative browser. Some of the more privacy focused browsers don't do cookies by default. This would be really useful with something like librewolf.
 
@@ -48,25 +42,39 @@ download link= https://icedrive.net/s/Nv7yRgA5tSBiAtzgFiARxb1tjVG4
 raspberry pi/ARM 32
 download link = https://icedrive.net/s/gFtW9iwzvk64QCyt5uGxFCNbfh6A
 
+![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2010-05-27.png?raw=true)
+![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2009-45-06.png?raw=true)
+
+![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2010-06-16.png?raw=true "create, add icons, color coordinate and edit categories")
 
 basic usage:
 ----------------
- I usually do pretty much everything on the web at point. This type if thing works great for how i use computers
+I usually do pretty much everything on the web at point. This type if thing works great for how i use computers
 
-open image in new tab/open image link/ to save images. its usually better to pull images out of websites directly. googles images, and bing images, etc. are a work in progress.
+you can add anything you want but these urls will be sorted into the appropriate categories by default.
+---
+Images
+---
+looks for filetype e.g jpeg, gif, png, svg, etc or some search engine proxies should work. 
 
-looks for filetype e.g .jpeg, .gif, or some search engine proxies work. Should support any filetype listed on firefox's documentation.
+to add images open image in new tab/open image link/. its usually better to pull images out of websites directly. googles images, and bing images, etc. are a work in progress. 
 
-youtube.com/watch = to filter iframes and construct playlists out of categories
+Should support any filetype listed on firefox's documentation.
 
-/channel/, /c/, /user/ = to pull out the bookmarked channel videos
+---
+Youtube
+---
+looks for youtube.com/watch or youtube.com/embed to filter iframes and construct playlists out of categories
 
-it will pull the routes out of your bookmarks by default. 
+---
+youtube channels
+---
+It will filter out /channel/, /c/, /user/ urls into the channels category = to pull out the bookmarked channel videos
+
 
 
 @secret/@hidden == default passwords
 
-you can add anything you want but those urls will be sorted into the appropriate categories by default.
 
 so yeah... Kind of gives your bookmarks more utility. 
 
@@ -110,7 +118,6 @@ I quit working on the android application a while back. Got tired of repackaging
 
 Todo list
 ----------------------------------------------
-Paginate the extracted youtube videos, update instance lists, fix redirect from the index to libreddit and invidious, export bookmarks button. Add filters for search engine proxies. I usually do pretty much everything on the web at point. This type if thing works great for how i use computers.
-
+fix redirects for libreddit, add an export bookmarks button. Add filters for search engine proxies. Clean up the readme. Might start with rss reader that just works for reddit links. Mess with the channels section or the download option
 
 
