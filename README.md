@@ -1,3 +1,5 @@
+![Alt text]("Screenshot from 2022-05-16 09-45-06.png"?raw=true "Optional Title")
+
 recent updates
 -------------
 Built an executable for the raspberry pi. I packaged it on an old pi. Worked in the pale moon browser(Kind of a gimped browser for the pi). That device has trouble running chromium. Was way easier than i thought it would be. Super happy with pyinstaller right now. Like... It isn't the latest version of the application though. The most recent updates aren't in it. Cool I have it booting on a few systems.
@@ -58,7 +60,7 @@ windows
 download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
 
 linux 
-download link= https://icedrive.net/s/7fTDBaNj9F12xRwX2g31j7jD5h8Y
+download link= https://icedrive.net/s/Nv7yRgA5tSBiAtzgFiARxb1tjVG4
 
 raspberry pi/ARM 32
 download link = https://icedrive.net/s/gFtW9iwzvk64QCyt5uGxFCNbfh6A
