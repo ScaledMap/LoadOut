@@ -57,7 +57,7 @@ I usually do pretty much everything on the web at point. This type if thing work
 you can add anything you want but these urls will be sorted into the appropriate categories by default.
 
 
----
+
 Images
 ---
 looks for filetype e.g jpeg, gif, png, svg, etc or some search engine proxies should work. 
@@ -66,14 +66,18 @@ to add images open image in new tab/open image link/. its usually better to pull
 
 Should support any filetype listed on firefox's documentation.
 
----
+
+
 Youtube
----
+
 looks for youtube.com/watch or youtube.com/embed to filter iframes and construct playlists out of categories
 
----
+
+
+
+
 youtube channels
----
+
 It will filter out /channel/, /c/, /user/ urls into the channels category = to pull out the bookmarked channel videos
 
 
