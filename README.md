@@ -1,5 +1,8 @@
 ![Alt text](/Screenshot from 2022-05-16 09-45-06.png?raw=true&sanitize=true "Optional Title")
 
+
+![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2010-06-16.png?raw=true "create, add icons, color coordinate and edit categories")
+
 ![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2010-04-15.png?raw=true "create, add icons, color coordinate and edit categories")
 ![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2010-05-27.png?raw=true)
 ![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2009-45-06.png?raw=true)
