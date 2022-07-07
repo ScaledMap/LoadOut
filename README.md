@@ -1,6 +1,7 @@
 
 
 
+![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2010-06-16.png?raw=true "create, add icons, color coordinate and edit categories")
 
 
 -------
@@ -45,7 +46,6 @@ download link = https://icedrive.net/s/gFtW9iwzvk64QCyt5uGxFCNbfh6A
 ![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2010-05-27.png?raw=true)
 ![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2009-45-06.png?raw=true)
 
-![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2010-06-16.png?raw=true "create, add icons, color coordinate and edit categories")
 
 basic usage:
 ----------------
