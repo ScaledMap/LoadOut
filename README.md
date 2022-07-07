@@ -1,4 +1,4 @@
-![Alt text]("Screenshot from 2022-05-16 09-45-06.png"?raw=true "Optional Title")
+![Alt text]("/Screenshot from 2022-05-16 09-45-06.png"?raw=true "Optional Title")
 
 recent updates
 -------------
