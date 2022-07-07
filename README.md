@@ -59,7 +59,7 @@ you can add anything you want but these urls will be sorted into the appropriate
 
 
 Images
----
+
 looks for filetype e.g jpeg, gif, png, svg, etc or some search engine proxies should work. 
 
 to add images open image in new tab/open image link/. its usually better to pull images out of websites directly. googles images, and bing images, etc. are a work in progress. 
@@ -71,8 +71,6 @@ Should support any filetype listed on firefox's documentation.
 Youtube
 
 looks for youtube.com/watch or youtube.com/embed to filter iframes and construct playlists out of categories
-
-
 
 
 
