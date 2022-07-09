@@ -1,5 +1,6 @@
 
 
+![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2010-06-16.png?raw=true "Main bookmarks page for the application")
 
 Still a work in progress
 
@@ -142,7 +143,6 @@ Unfortunitely, I don't think getting the webview to work is an option on the ras
 
 Also, raspbian unfortunitely won't work either. I built the raspberry pi build on raspberry pi os. I could try doing a build for raspbian i guess. Maybe if i get bored.
 
-![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2010-06-16.png?raw=true "Main bookmarks page for the application")
 
 
 The android application is hosted on github.
