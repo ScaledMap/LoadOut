@@ -20,7 +20,7 @@ LoadOut is a Bookmark manager I've been working on to help manage and organize m
 
 Categorized and organized bookmarks in any browser, as a server or as an application
 
-![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/server%20or%20webview.png?raw=true, "Main bookmarks page for the application")
+![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/server%20or%20webview.png?raw=true, "The add bookmarks page. It will pull out urls from your clipboard if that setting is turned on and you can update it by just reimporting your bookmarks.")
 
 create categories, choose background icons and pick a color
 
