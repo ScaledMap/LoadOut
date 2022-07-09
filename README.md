@@ -135,6 +135,7 @@ If you don't provide information about a website, it will try and scrape the web
 
 If you try and import your bookmarks a second time, it will only add your newly added bookmarks. You can update the application by importing your firefox bookmarks multiple times. 
 
+![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/protected-bmark.png>raw=true, "Hidden bookmarks and images")
 
 The android application is hosted on github.
 ----------------------------------------
