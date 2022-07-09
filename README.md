@@ -50,21 +50,22 @@ features
 -------
 In adition to the stuff already mentioned. 
 
+
 1) You can import your bookmarks into the application from firefox. 
 
-2)The program will automatically sort out any images, youtube videos or youtube channels. You can update the application by reimporting your bookmarks into the application. The program won't let you add the same bookmarks so you can keep things updated by reimporting your bookmarks multiple times or from all your browsers. 
+2) The program will automatically sort out any images, youtube videos or youtube channels. You can update the application by reimporting your bookmarks into the application. The program won't let you add the same bookmarks so you can keep things updated by reimporting your bookmarks multiple times or from all your browsers. 
 
-3)You can choose the default page for the application. If there are some links you use more than others, you can set it so that category shows up when the program launches. If you don't currently have any youtube channels, youtube videos or images in your bookmarks, going forward you will have an easy way of saving and organizing all those items in the future. 
+3) You can choose the default page for the application. If there are some links you use more than others, you can set it so that category shows up when the program launches. If you don't currently have any youtube channels, youtube videos or images in your bookmarks, going forward you will have an easy way of saving and organizing all those items in the future. 
 
-4)The youtube channels section will list all youtube channels you had in your bookmarks. When you click on the videos button in that tab, the program will load some of the videos from that creator. Good way to keep track of stuff if you are a "privacy guy". I'd usually prefer to not have accounts. This would also save your stuff so it could potentially be accessed anywhere on the network. 
+4) The youtube channels section will list all youtube channels you had in your bookmarks. When you click on the videos button in that tab, the program will load some of the videos from that creator. Good way to keep track of stuff if you are a "privacy guy". I'd usually prefer to not have accounts. This would also save your stuff so it could potentially be accessed anywhere on the network. 
 
-5)There is a really basic download option for videos in the youtube videos section. 
+5) There is a really basic download option for videos in the youtube videos section. 
 
-6)convert youtube links and reddit links into invidious and libreddit links. Makes it easy to not have to think about going to those privacy alternatives. 
+6) convert youtube links and reddit links into invidious and libreddit links. Makes it easy to not have to think about going to those privacy alternatives. 
 
-7)If you add a youtube video to the application, the application will recognize that it's a youtube video and a playlist option with show up in that category. When you click on the playlist button, the application will automatically start playing all the videos in that category as a playlist. Really barebones option for music playlists or anything else you would need a playlist for. 
+7) If you add a youtube video to the application, the application will recognize that it's a youtube video and a playlist option with show up in that category. When you click on the playlist button, the application will automatically start playing all the videos in that category as a playlist. Really barebones option for music playlists or anything else you would need a playlist for. 
 
-8)You can also shorten urls and save the shortened links. 
+8) You can also shorten urls and save the shortened links. 
 
 
 
