@@ -4,6 +4,8 @@
 
 Still a work in progress. Sometimes i get more into music or drawing. If I find something I think is really, really cool, I'll try and add it as a default bookmark. You can delete those if you want. There are so many crazy things you can find on the internet.
 
+This application gets updated somewhat frequently  with small updates. To keep your database without having to redo everything, just redownload the application and overwrite the bookmarks.sqlite file with the old database.sqlite file. Can also move your notes over by overwriting the <category>.txt files.
+
 -------
 Loadout
 -------
@@ -29,11 +31,18 @@ windows
 download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
 
 linux 
-download link= https://icedrive.net/s/XT5R8G3BxTZBT2vQZYxZC1tPykQf
+download link= https://icedrive.net/s/v6YjwwYCG5bx19NguwyzvA5StfNF
 
 raspberry pi/ARM 32
 download link = https://icedrive.net/s/Nz4gvN36kNuYkDTY2XuX3PBAfRTy
 
+
+--------------
+Installation
+--------------
+You don't have to install anything. Just download and unzip the provided folder. The executable should be at the bottom of that folder. You are looking for loadout.exe or just loadout. 
+
+This application gets updated somewhat frequently  with small updates. To keep your database without having to redo everything, just redownload the application and overwrite the bookmarks.sqlite file with the old database.sqlite file. Can also move your notes over by overwriting the <category>.txt files. 
 
 
 --------------
@@ -153,7 +162,9 @@ fix redirects for libreddit, add an export bookmarks button. Add filters for sea
 
 most recent updates
 -------------------
-host -I to pull up the ipaddress
+Simple update that fixed the redirect when editing hidden bookmarks. Also flash added instead of render template when adding to hidden bookmarks. The link for settings was borken on a few pages because i changed how I wanted to handle redirects. Should be fixed.
+
+hostname -I to pull up the ipaddress
 
 The server should definetly work on all your devices now. I might add an option where you can choose to have the server just run in your browser vs allowing other devices to connect.
 
