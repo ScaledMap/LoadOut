@@ -18,19 +18,6 @@ create a category, choose a background icon and pick a color
 
 ![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/categories.png?raw=true "create, add icons, color coordinate and edit categories")
 
-------------------------------
-Ideas for categories
------------------------------
-I use this application on a daily basis. Some of the categories I've come up with are:
-
-backing tracks, guitar practice, guitar tabs(if you don't know what tabs are, they are a form of music notation for guitar) literature, weird(really trippy crazy websites), Random videos(for when I'm curious about a video but don't have time to watch it), javascript, learn programming(could fork this into python learning tools, python info, other programming languages), exercise, art, iptv, streaming, pick up later(where I left off in a show or video), gaming, argg 
-
-then you have the default values i added. technology(cool computer stuff thats not programming), entertainment(leisure activities that don't fit in to iptv or streaming), music(this is how i listen to music. Shuffle play all the youtube videos in that playlist. Could create really detailed music playlists. I don't listen to as much music as i used to. usually play music instead.), photos(this category is where all photos should be displayed. images should be filtered out and show up in that category. I draw people so it's kind of useful for that. Also useful to save memes, reaction gifs, inspirational stuff, etc.)
-
-then default categories, webview, images, youtube, reddit, youtube channels
----------------------------------
-
-
 -------------------------------------------
 Downloads
 -------------------------------------------
@@ -59,6 +46,18 @@ You could also use this with librewolf or an alternative browser. Some of the mo
 You can use the pywebview built in browser if you wanted. It'd be a Kind of a limiting experience but you could try it. Pywebview doesn't default to persistent cookies. History won't show up when you open links in the webview. Stumbleupon(guess its "cloudhiker now... lol lost the domain") works well in the webview. Works well if you want to keep stumbleupon stuff seperate from normal bookmarks.
 
 Good way to keep the same set up for all your browsers on any device.
+
+I use this application on a daily basis. Some of the categories I've come up with are:
+
+backing tracks, guitar practice, guitar tabs(if you don't know what tabs are, they are a form of music notation for guitar) literature, weird(really trippy crazy websites), Random videos(for when I'm curious about a video but don't have time to watch it), javascript, learn programming(could fork this into python learning tools, python info, other programming languages), exercise, art, iptv, streaming, pick up later(where I left off in a show or video), gaming, argg 
+
+then you have the default values i added. technology(cool computer stuff thats not programming), entertainment(leisure activities that don't fit in to iptv or streaming), music(this is how i listen to music. Shuffle play all the youtube videos in that playlist. Could create really detailed music playlists. I don't listen to as much music as i used to. usually play music instead.), photos(this category is where all photos should be displayed. images should be filtered out and show up in that category. I draw people so it's kind of useful for that. Also useful to save memes, reaction gifs, inspirational stuff, etc.)
+
+then default categories, webview, images, youtube, reddit, youtube channels
+
+
+---------------------------------
+
 
 -------
 features
