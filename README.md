@@ -22,7 +22,7 @@ Categorized and organized bookmarks in any browser, as a server or as an applica
 
 ![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/server%20or%20webview.png?raw=true, "Main bookmarks page for the application")
 
-create categorize, choose background icon and color
+create categories, choose background icons and pick a color
 
 ![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/categories.png?raw=true "create, add icons, color coordinate and edit categories")?raw=true "create, add icons, color coordinate and edit categories")
 
