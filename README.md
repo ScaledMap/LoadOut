@@ -14,6 +14,10 @@ Also, raspbian unfortunitely won't work either. I built the raspberry pi build o
 
 ![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2010-06-16.png?raw=true "Main bookmarks page for the application")
 
+
+
+Still a work in progress
+
 -------
 Loadout
 -------
@@ -44,7 +48,25 @@ Good way to keep the same set up in all your browsers on any device.
 -------
 features
 -------
-In adition to the stuff already mentioned. You can import your bookmarks into the application from firefox. The program will automatically sort out any images, youtube videos or youtube channels. You can update the application by reimporting your bookmarks into the application. The program won't let you add the same bookmarks so you can keep things updated by reimporting your bookmarks multiple times or from all your browsers. You can choose the default page for the application. If there are some links you use more than others, You can set it so that category shows up when the program launches. If you don't currently have any youtube channels, youtube videos or images in your bookmarks, going forward you will have an easy way of saving and organizing all those items. The youtube channels section will list all youtube channels you had in your bookmarks. When you click on the videos button in that tab, the program will load some of the videos from that creator. Good way to keep track of stuff if you are a "privacy guy". I'd usually prefer to not have accounts. This would also save your stuff so it could potentially be accessed anywhere on the network. The youtube videos option will import yout youtube videos. There is a really basic download option for the videos in the youtube videos section. The application also has an option in the settings to convert youtube links and reddit links into invidious and libreddit links. Makes it easy to not have to think about going to those privacy alternatives. Might look into adding more of these redirects as settings. If you add a youtube video to the application, the application will recognize that it's a youtube video and a playlist option with show up in that category. When you click on the playlist button, the application will automatically start playing all the videos in that category as a playlist. Really barebones option for music playlists. You can use this for anything you would need a playlist for. You can also shorten urls and save the shortened links. 
+In adition to the stuff already mentioned. 
+
+1) You can import your bookmarks into the application from firefox. 
+
+2)The program will automatically sort out any images, youtube videos or youtube channels. You can update the application by reimporting your bookmarks into the application. The program won't let you add the same bookmarks so you can keep things updated by reimporting your bookmarks multiple times or from all your browsers. 
+
+3)You can choose the default page for the application. If there are some links you use more than others, you can set it so that category shows up when the program launches. If you don't currently have any youtube channels, youtube videos or images in your bookmarks, going forward you will have an easy way of saving and organizing all those items in the future. 
+
+4)The youtube channels section will list all youtube channels you had in your bookmarks. When you click on the videos button in that tab, the program will load some of the videos from that creator. Good way to keep track of stuff if you are a "privacy guy". I'd usually prefer to not have accounts. This would also save your stuff so it could potentially be accessed anywhere on the network. 
+
+5)There is a really basic download option for videos in the youtube videos section. 
+
+6)convert youtube links and reddit links into invidious and libreddit links. Makes it easy to not have to think about going to those privacy alternatives. 
+
+7)If you add a youtube video to the application, the application will recognize that it's a youtube video and a playlist option with show up in that category. When you click on the playlist button, the application will automatically start playing all the videos in that category as a playlist. Really barebones option for music playlists or anything else you would need a playlist for. 
+
+8)You can also shorten urls and save the shortened links. 
+
+
 
 Might be better to just look at the settings page below. Also includes a urlshortener
 
