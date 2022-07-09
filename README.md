@@ -62,7 +62,7 @@ In adition to the stuff already mentioned.
 
 1) You can import your bookmarks into the application from firefox. 
 
-2) The program will automatically sort out any images, youtube videos or youtube channels. If you don't currently have any youtube channels, youtube videos or images in your bookmarks, going forward you will have an easy way of saving and organizing all those items.
+2) The program will automatically sort out any images, youtube videos or youtube channels. If you don't currently have any youtube channels, youtube videos or images, this gives you an easy way of saving and organizing those items.
 
 3) You can update the application by reimporting your bookmarks into the application. The program won't let you add the same bookmarks so you can keep things updated by reimporting your bookmarks multiple times or from all your browsers. 
 
@@ -74,12 +74,11 @@ In adition to the stuff already mentioned.
 
 7) There is a note taking app. Each category has it's own note taking app. To get to the app click on the yellow button on the bookmarks page and then click notes. You can also obfuscate the text. Only one option is currently available though.
 
-8) convert youtube links and reddit links into invidious and libreddit links. It will pull up one of instance of those sites at random. Makes it easy to not have to think about going to those privacy alternatives. 
+8) convert youtube links and reddit links into invidious and libreddit links. It will pull up one of the instances at random. Makes it easy to not have to think about going to those privacy alternatives. 
 
 9) If you add a youtube video to the application, the application will recognize that it's a youtube video and a playlist option with show up in that category. When you click on the playlist button, the application will automatically start playing all the videos in that category as a playlist. Really barebones option for music playlists or anything else you would need a playlist for. 
 
 10) You can shorten urls and save the shortened links. 
-
 
 
 Might be better to just look at the settings page below.
@@ -100,11 +99,9 @@ to add images open image in new tab, open image link, open image, etc. You want 
 
 Should support any filetype listed on firefox's documentation.
 
-
 Youtube
 
 looks for youtube.com/watch or youtube.com/embed to filter iframes and construct playlists out of categories
-
 
 youtube channels
 
@@ -124,11 +121,9 @@ There is a password protected Bookmarks section which can only be accessed by ty
 
 It sorts out nsfw content into the password protected section based off a file put together by nofap lol. You can change the default behavior by modifying that file. Search engines aren't filtered out by default and imgur is at the moment. You can modify the file to change what sites are filtered.
 
-
 --------------------
 importing your bookmarks
 --------------------
-
 
 1)To import your bookmarks, go to the firefox settings button>bookmarks>manage bookmarks>import and backup>click on backup
 
@@ -156,6 +151,7 @@ fix redirects for libreddit, add an export bookmarks button. Add filters for sea
 
 most recent updates
 -------------------
+host -I to pull up the ipaddress
 
 The server should definetly work on all your devices now. I might add an option where you can choose to have the server just run in your browser vs allowing other devices to connect.
 
