@@ -125,25 +125,6 @@ If you don't provide information about a website, it will try and scrape the web
 If you try and import your bookmarks a second time, it will only add your newly added bookmarks. You can update the application by importing your firefox bookmarks multiple times. 
 
 
-
-
-
-recent updates
--------------
-
-
-Built an executable for the raspberry pi. I packaged it on an old pi. Worked in the pale moon browser(Kind of a gimped browser for the pi). That device has trouble running chromium. Was way easier than i thought it would be. Super happy with pyinstaller right now. Like... It isn't the latest version of the application though. The most recent updates aren't in it. Cool I have it booting on a few systems.
-
-There is a button in the protected bookmars that doesn't do anything right now. That's going to up open a form to add bookmarks to the protected section. You shouldn't have to logout and back in to add new bookmarks to the protected section.
-
-july 4th: The playlist link shouldn't show up anymore if there aren\t any youtube videos in a category. The youtube videos filter would break if redirects were turned off. Fixed that. Added an option to enable https on localhost. Added plex iptv to the default entertainment category. Added my music playlist as a bookmark. ¯\_(ツ)_/¯ Hope you like 90s rock. 
-
-fixed a lot of little bugs
-
-started messing with the application on raspberry pi. I was able to get the server working on the pi. I might have to disable the webview for that build. I'll post the ARM exe when I get it all worked out. 
-
-Hosting the file on icedrive until i publish it
-
 The android application is hosted on github.
 ----------------------------------------
 I quit working on the android application a while back. Got tired of repackaging it over and over again on a bunch of systems. You can probably still run what i had at the time. If you are curious about pythonforandroid, shows that it can be ported to android. I was a little further along then what is shown there. Also shows why it's taken a while to get an application running. Was going to be a password manager. I was packaging it on linux, windows, android, as a server and a webview. The application behaves differently between running as webview and a server.
