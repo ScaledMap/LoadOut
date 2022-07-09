@@ -18,7 +18,7 @@ Loadout
 
 LoadOut is a Bookmark manager I've been working on to help manage and organize my bookmarks. It's a Pywebview application built on flask. You can run it as a server or as a webview.  It allows you to import your bookmarks from firefox and create categories to interact with those bookmarks. It would also probably be useful for situations where you want to avoid messing with the keyboard. There was a time where i was using opera because speeddial was useful. I'd kind of like it to be a more flexible alternative to something like pocket or speedial. It should work with most browsers. If you decide to set it up as a server, it's a cool way to get all your web data on all of your devices. I'm kind of working on this project because 1) I wanted something like this 2) I kind of just like computer programming. 
 
-All your bookmarks when you open your browser or browsers or as an application if that works better.
+Categorized and organized bookmarks in any browser, as a server or as an application
 
 ![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/server%20or%20webview.png?raw=true, "Main bookmarks page for the application")
 
