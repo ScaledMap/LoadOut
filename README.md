@@ -68,7 +68,7 @@ In adition to the stuff already mentioned.
 
 
 
-Might be better to just look at the settings page below. Also includes a urlshortener
+Might be better to just look at the settings page below.
 
 ![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/settings.png?raw=true "list of application settings")
 
