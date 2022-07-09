@@ -4,6 +4,8 @@ most recent updates
 
 The server should definetly work on all your devices now. I might add an option where you can choose to have the server just run in your browser vs allowing other devices to connect.
 
+Working on adding screenshots. Would like to organize the github better. Fix up the readme.
+
 Updated the raspberry pi build. It should be at the same place in development as the normal linux build. I'm in the unusual situation where my main computer is hardwired and doesn't have a wireless card. I was able to run the application as a server while messing with it on the pi. So at this point at least, pretty confident that the server will run on all your other devices. It really was pretty cool having all my webstuff right there on all the devices at my dads house. I'm pretty psyched about working on this project after getting the raspberry pi server going. It was cool being able  to pull up my music playlists on all the devices in the house. Cool seeing it on mobile. After messing with the networking side of things, I think I will probably try and add some kind of loose account settings eventually. I guess you could just run the application on two different ports? ¯\_(ツ)_/¯. I'll test how that works.
 
 Unfortunitely, I don't think getting the webview to work is an option on the raspberry pi. The raspberry pi doesnt support QtWebEngine. You can get pywebview to work with QtWebKit, but pyinstaller doesn't like using QtWebKit. It has depreciated it. Maybe an option would be to use an older version of pyinstaller. I'm probably not going to make that a huge priority though.  Gtk might also be an option. I also had to use some depreciated libraries to get that to work. It can run as a webview on the raspberry pi if I don't package it. Kinda makes more since as a server on the pi anyway though. So yeah. Not at the top of my to do list.
@@ -24,7 +26,7 @@ Categorized and organized bookmarks in any browser, as a server or as an applica
 
 create categories, choose background icons and pick a color
 
-![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/categories.png?raw=true "create, add icons, color coordinate and edit categories")?raw=true "create, add icons, color coordinate and edit categories")
+![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/categories.png?raw=true "create, add icons, color coordinate and edit categories")
 
 
 
