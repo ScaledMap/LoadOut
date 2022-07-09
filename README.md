@@ -35,7 +35,7 @@ My advice would be to run it as a server. You can set loadout to boot at startup
 
 You could also use this with librewolf or an alternative browser. Some of the more privacy focused browsers don't do cookies by default. This would be really useful with something like librewolf.
 
-You could also use the webview as a browser. Kind of a limiting experience but you could try it. Pywebview doesn't default to persistent cookies. History won't show up when you open links in the webview. Stumbleupon(guess its "cloudhiker now... lol lost the domain") works well in the webview. You can add bookmarks through the webview like you normally would in the browser. Works well if you want to keep stumbleupon stuff seperate from normal bookmarks.
+You can use the pywebview built in browser if you wanted. It'd be a Kind of a limiting experience but you could try it. Pywebview doesn't default to persistent cookies. History won't show up when you open links in the webview. Stumbleupon(guess its "cloudhiker now... lol lost the domain") works well in the webview. Works well if you want to keep stumbleupon stuff seperate from normal bookmarks.
 
 Good way to keep the same set up in all your browsers on any device.
 
@@ -89,17 +89,14 @@ to add images open image in new tab/open image link/. its usually better to pull
 Should support any filetype listed on firefox's documentation.
 
 
-
 Youtube
 
 looks for youtube.com/watch or youtube.com/embed to filter iframes and construct playlists out of categories
 
 
-
 youtube channels
 
 It will filter out /channel/, /c/, /user/ urls into the channels category. From the category you can pull out random vidoes from the channel. Some people are never going to be ok with making accounts. least you can save the channels somewhere.
-
 
 
 type @secret or @hidden in the main +website form to open the protected bookmarks
