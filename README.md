@@ -2,7 +2,7 @@
 
 ![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2010-06-16.png?raw=true "Main bookmarks page for the application")
 
-Still a work in progress. Sometimes i get more into music or drawing. 
+Still a work in progress. Sometimes i get more into music or drawing. If I find something I think is really, really cool, I'll try and add it as a default bookmark. You can delete those if you want. There are so many crazy things you can find on the internet.
 
 -------
 Loadout
