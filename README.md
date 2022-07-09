@@ -40,14 +40,15 @@ You could also use the webview as a browser. Kind of a limiting experience but y
 -------
 features
 -------
-In adition to the stuff already mentioned. You can import your bookmarks into the application from firefox. The program will automatically sort out any images, youtube videos or youtube channels. You can update the application by reimporting your bookmarks into the application. The program won't let you add the same bookmarks so you can keep things updated by reimporting your bookmarks multiple times or from all your browsers. If you don't currently have any youtube channels, youtube videos or images in your bookmarks, going forward you will have an easy way of saving and organizing all those items. The youtube channels section will list all youtube channels you had in your bookmarks. When you click on the videos button in that tab, the program will load some of that videos from that creator. Good way to keep track of stuff if you are a "privacy guy". I'd usually prefer to not have accounts. This would also save your stuff so it could potentially be accessed anywhere on the network. The youtube videos option will import yout youtube videos. There is a really basic download option for the videos in the youtube videos section. The application also has an option in the settings to convert youtube links and reddit links into invidious and libreddit links. Makes it easy to not have to think about going to those privacy alternatives. Might look into adding more of these redirects as settings. If you add a youtube video to the application, the application will recognize that it's a youtube video and a playlist option with show up in that category. When you click on the playlist button, the application will automatically start playing all the videos in that category. Really barebones option for music playlists. You can use this for anything you would need a playlist for. 
+In adition to the stuff already mentioned. You can import your bookmarks into the application from firefox. The program will automatically sort out any images, youtube videos or youtube channels. You can update the application by reimporting your bookmarks into the application. The program won't let you add the same bookmarks so you can keep things updated by reimporting your bookmarks multiple times or from all your browsers. If you don't currently have any youtube channels, youtube videos or images in your bookmarks, going forward you will have an easy way of saving and organizing all those items. The youtube channels section will list all youtube channels you had in your bookmarks. When you click on the videos button in that tab, the program will load some of that videos from that creator. Good way to keep track of stuff if you are a "privacy guy". I'd usually prefer to not have accounts. This would also save your stuff so it could potentially be accessed anywhere on the network. The youtube videos option will import yout youtube videos. There is a really basic download option for the videos in the youtube videos section. The application also has an option in the settings to convert youtube links and reddit links into invidious and libreddit links. Makes it easy to not have to think about going to those privacy alternatives. Might look into adding more of these redirects as settings. If you add a youtube video to the application, the application will recognize that it's a youtube video and a playlist option with show up in that category. When you click on the playlist button, the application will automatically start playing all the videos in that category. Really barebones option for music playlists. You can use this for anything you would need a playlist for. You can also shorten urls and save the shortened links. 
 
-https://github.com/ScaledMap/LoadOut/blob/main/settings.png
+Might be better to just look at the settings page below. You can also shorten urls and save the shortened links.
 
 ![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/settings.png?raw=true "list of application settings")
 
+These are the customization options currently in the program
 
-![Alt text](hhttps://github.com/ScaledMap/LoadOut/blob/main/customization_settings.png?raw=true "customizing the application")
+![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/customization_settings.png?raw=true "customizing the application")
 
 
 
@@ -62,7 +63,7 @@ windows
 download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
 
 linux 
-download link= https://icedrive.net/s/Nv7yRgA5tSBiAtzgFiARxb1tjVG4
+download link= https://icedrive.net/s/XT5R8G3BxTZBT2vQZYxZC1tPykQf
 
 raspberry pi/ARM 32
 download link = https://icedrive.net/s/Nz4gvN36kNuYkDTY2XuX3PBAfRTy
