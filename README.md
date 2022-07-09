@@ -1,19 +1,4 @@
 
-most recent updates
--------------------
-
-The server should definetly work on all your devices now. I might add an option where you can choose to have the server just run in your browser vs allowing other devices to connect.
-
-Working on adding screenshots. Would like to organize the github better. Fix up the readme.
-
-Updated the raspberry pi build. It should be at the same place in development as the normal linux build. I'm in the unusual situation where my main computer is hardwired and doesn't have a wireless card. I was able to run the application as a server while messing with it on the pi. So at this point at least, pretty confident that the server will run on all your other devices. It really was pretty cool having all my webstuff right there on all the devices at my dads house. I'm pretty psyched about working on this project after getting the raspberry pi server going. It was cool being able  to pull up my music playlists on all the devices in the house. Cool seeing it on mobile. After messing with the networking side of things, I think I will probably try and add some kind of loose account settings eventually. I guess you could just run the application on two different ports? ¯\_(ツ)_/¯. I'll test how that works.
-
-Unfortunitely, I don't think getting the webview to work is an option on the raspberry pi. The raspberry pi doesnt support QtWebEngine. You can get pywebview to work with QtWebKit, but pyinstaller doesn't like using QtWebKit. It has depreciated it. Maybe an option would be to use an older version of pyinstaller. I'm probably not going to make that a huge priority though.  Gtk might also be an option. I also had to use some depreciated libraries to get that to work. It can run as a webview on the raspberry pi if I don't package it. Kinda makes more since as a server on the pi anyway though. So yeah. Not at the top of my to do list.
-
-Also, raspbian unfortunitely won't work either. I built the raspberry pi build on raspberry pi os. I could try doing a build for raspbian i guess. Maybe if i get bored.
-
-![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2010-06-16.png?raw=true "Main bookmarks page for the application")
-
 
 
 Still a work in progress
@@ -33,6 +18,21 @@ create categories, choose background icons and pick a color
 ![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/categories.png?raw=true "create, add icons, color coordinate and edit categories")
 
 
+-------------------------------------------
+Downloads
+-------------------------------------------
+*The windows application needs to be repackaged with latest updates
+
+*only the server is working on the pi. There is a problem with QtWebengine on the pi. pywebview will work with qtwebkit but pyinstaller wont
+
+windows 
+download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
+
+linux 
+download link= https://icedrive.net/s/XT5R8G3BxTZBT2vQZYxZC1tPykQf
+
+raspberry pi/ARM 32
+download link = https://icedrive.net/s/Nz4gvN36kNuYkDTY2XuX3PBAfRTy
 
 --------------
 Utility
@@ -76,26 +76,6 @@ Might be better to just look at the settings page below.
 As of now,These are the customization options currently available in the program.
 
 ![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/customization_settings.png?raw=true "customizing the application")
-
-
-
--------------------------------------------
-Downloads
--------------------------------------------
-*The windows application needs to be repackaged with latest updates
-
-*only the server is working on the pi. I'm having trouble with the webview. I've had issues with python packages on raspberry pi in the past. Might just modify it so the server is the only option.
-
-windows 
-download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
-
-linux 
-download link= https://icedrive.net/s/XT5R8G3BxTZBT2vQZYxZC1tPykQf
-
-raspberry pi/ARM 32
-download link = https://icedrive.net/s/Nz4gvN36kNuYkDTY2XuX3PBAfRTy
-
-
 
 
 basic usage:
@@ -147,6 +127,22 @@ It sorts out nsfw content into the password protected section based off a file p
 If you don't provide information about a website, it will try and scrape the website. Kinda doubt there would be enough requests to cause any problems. Think it's only 1 request per bookmark.
 
 If you try and import your bookmarks a second time, it will only add your newly added bookmarks. You can update the application by importing your firefox bookmarks multiple times. 
+
+
+most recent updates
+-------------------
+
+The server should definetly work on all your devices now. I might add an option where you can choose to have the server just run in your browser vs allowing other devices to connect.
+
+Working on adding screenshots. Would like to organize the github better. Fix up the readme.
+
+Updated the raspberry pi build. It should be at the same place in development as the normal linux build. I'm in the unusual situation where my main computer is hardwired and doesn't have a wireless card. I was able to run the application as a server while messing with it on the pi. So at this point at least, pretty confident that the server will run on all your other devices. It really was pretty cool having all my webstuff right there on all the devices at my dads house. I'm pretty psyched about working on this project after getting the raspberry pi server going. It was cool being able  to pull up my music playlists on all the devices in the house. Cool seeing it on mobile. After messing with the networking side of things, I think I will probably try and add some kind of loose account settings eventually. I guess you could just run the application on two different ports? ¯\_(ツ)_/¯. I'll test how that works.
+
+Unfortunitely, I don't think getting the webview to work is an option on the raspberry pi. The raspberry pi doesnt support QtWebEngine. You can get pywebview to work with QtWebKit, but pyinstaller doesn't like using QtWebKit. It has depreciated it. Maybe an option would be to use an older version of pyinstaller. I'm probably not going to make that a huge priority though.  Gtk might also be an option. I also had to use some depreciated libraries to get that to work. It can run as a webview on the raspberry pi if I don't package it. Kinda makes more since as a server on the pi anyway though. So yeah. Not at the top of my to do list.
+
+Also, raspbian unfortunitely won't work either. I built the raspberry pi build on raspberry pi os. I could try doing a build for raspbian i guess. Maybe if i get bored.
+
+![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2010-06-16.png?raw=true "Main bookmarks page for the application")
 
 
 The android application is hosted on github.
