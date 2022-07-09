@@ -51,11 +51,6 @@ I use this application on a daily basis. Some of the categories I've come up wit
 
 backing tracks, guitar practice, guitar tabs(if you don't know what tabs are, they are a form of music notation for guitar) literature, weird(really trippy crazy websites), Random videos(for when I'm curious about a video but don't have time to watch it), javascript, learn programming(could fork this into python learning tools, python info, other programming languages), exercise, art, iptv, streaming, pick up later(where I left off in a show or video), gaming, argg 
 
-then you have the default values i added. technology(cool computer stuff thats not programming), entertainment(leisure activities that don't fit in to iptv or streaming), music(this is how i listen to music. Shuffle play all the youtube f in that playlist. Could create really detailed music playlists. I don't listen to as much music as i used to. usually play music instead.), photos(this category is where all photos should be displayed. images should be filtered out and show up in that category. I draw people so it's kind of useful for that. Also useful to save memes, reaction gifs, inspirational stuff, etc.)
-
-then default categories, webview, images, youtube, reddit, youtube channels
-
-
 ---------------------------------
 
 
@@ -77,7 +72,7 @@ In adition to the stuff already mentioned.
 
 6) There is a really basic download option for videos in the youtube videos section. 
 
-7) There is a note taking app. Each category has it's own note taking app. To get to the app click on the yellow button on the bookmarks page and then click notes. You can also obfiscate the text. Only one option is currently available though. There is an option to encode your notes.
+7) There is a note taking app. Each category has it's own note taking app. To get to the app click on the yellow button on the bookmarks page and then click notes. You can also obfuscate the text. Only one option is currently available though.
 
 8) convert youtube links and reddit links into invidious and libreddit links. It will pull up one of instance of those sites at random. Makes it easy to not have to think about going to those privacy alternatives. 
 
@@ -98,13 +93,10 @@ As of now,these are the customization options currently available in the program
 
 basic usage:
 ----------------
-I usually do pretty much everything on the web at point. This type if thing works great for how i use computers
-
-you can add anything you want but these urls/patterns will be sorted into the appropriate categories by default.
 
 Images
 
-to add images open image in new tab, open image link, open image, save image, etc. You want the link that jas the image type in it. png, gif, svg, etc. its usually better to pull images out of websites directly. googles images, and bing images, etc. are a work in progress. 
+to add images open image in new tab, open image link, open image, etc. You want the link that has the image type in it. png, gif, svg, etc. its usually better to pull images out of websites directly. googles images, and bing images, etc. are a work in progress. 
 
 Should support any filetype listed on firefox's documentation.
 
@@ -120,8 +112,6 @@ It will filter out /channel/, /c/ and /user/ urls into the channels category.
 
 type @secret or @hidden in the main +website form to open the protected bookmarks
 @secret or @hidden == default passwords
-
-it's definitely more fun to play around with once you get used to using it
 
 so yeah... Kind of gives your bookmarks more utility. 
 ![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Videos.png?raw=true, "download, play, embed and link to videos")
