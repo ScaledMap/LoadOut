@@ -73,7 +73,7 @@ Might be better to just look at the settings page below.
 
 ![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/settings.png?raw=true "list of application settings")
 
-These are the customization options currently available in the program. Can change the background image so I can see some people liking that they could potentially customize their browsers homepage
+As of now,These are the customization options currently available in the program.
 
 ![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/customization_settings.png?raw=true "customizing the application")
 
