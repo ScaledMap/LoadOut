@@ -2,7 +2,7 @@
 
 ![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2010-06-16.png?raw=true "Main bookmarks page for the application")
 
-Still a work in progress
+Still a work in progress. Sometimes i get more into music or drawing. 
 
 -------
 Loadout
@@ -121,6 +121,8 @@ There is a password protected Bookmarks section which can only be accessed by ty
 
 It sorts out nsfw content into the password protected section based off a file put together by nofap lol. You can change the default behavior by modifying that file. Search engines aren't filtered out by default and imgur is at the moment. You can modify the file to change what sites are filtered.
 
+![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/protected-bmark.png?raw=true, "Hidden bookmarks and images")
+
 --------------------
 importing your bookmarks
 --------------------
@@ -135,7 +137,6 @@ If you don't provide information about a website, it will try and scrape the web
 
 If you try and import your bookmarks a second time, it will only add your newly added bookmarks. You can update the application by importing your firefox bookmarks multiple times. 
 
-![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/protected-bmark.png?raw=true, "Hidden bookmarks and images")
 
 The android application is hosted on github.
 ----------------------------------------
