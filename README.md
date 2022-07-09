@@ -133,6 +133,8 @@ Hidden bookmarks
 There is a password protected Bookmarks section which can only be accessed by typing @secret or @hidden into the main form(the one with the https:// placeholder). To add new pages to this section, you would type something like https://www.google.com@secret or https://www.google.com@hidden To just view the section, you would only type @secret or @hidden into the main form. You are also offered the option to change the passphrase after you log in. After it has been changed, hidden bookmarks can be added with   password https://www.google.com  . It's just your created password followed by a space and then the url you are adding. To access the hidden bookmarks with the user created password, you just type the password into the main form. You don't need the @ symbol if you created a password. You can also move bookmarks from the main section to the password section by editing the bookmark and adding you password before the url in the url field. Just like you would add a new url to the password protected section.
 
 It sorts out nsfw content into the password protected section based off a file put together by nofap lol. You can change the default behavior by modifying that file. Search engines aren't filtered out by default and imgur is at the moment. You can modify the file to change what sites are filtered.
+
+
 --------------------
 importing your bookmarks
 --------------------
