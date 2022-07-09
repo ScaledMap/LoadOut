@@ -149,6 +149,19 @@ If you don't provide information about a website, it will try and scrape the web
 If you try and import your bookmarks a second time, it will only add your newly added bookmarks. You can update the application by importing your firefox bookmarks multiple times. 
 
 
+The android application is hosted on github.
+----------------------------------------
+I quit working on the android application a while back. Got tired of repackaging it over and over again on a bunch of systems. You can probably still run what i had at the time. If you are curious about pythonforandroid, shows that it can be ported to android. I was a little further along then what is shown there. Also shows why it's taken a while to get an application running. Was going to be a password manager. I was packaging it on linux, windows, android, as a server and a webview. The application behaves differently between running as webview and a server.
+
+Part of this was me playing around with pywebview. The application uses both the flask pywebview api and the pywebview javascript api. Figured mine as well try out the non flask option. Android was kind of an afterthought.
+
+Todo list
+----------------------------------------------
+fix redirects for libreddit, add an export bookmarks button. Add filters for search engine proxies. Clean up the readme. Might start with rss reader that just works for reddit links. Mess with the channels section or the download option
+
+![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2009-45-06.png?raw=true, "cardview page for jumping around quickly and accessing your notes")
+
+
 most recent updates
 -------------------
 
@@ -163,15 +176,3 @@ Unfortunitely, I don't think getting the webview to work is an option on the ras
 Also, raspbian unfortunitely won't work either. I built the raspberry pi build on raspberry pi os. I could try doing a build for raspbian i guess. Maybe if i get bored.
 
 
-
-The android application is hosted on github.
-----------------------------------------
-I quit working on the android application a while back. Got tired of repackaging it over and over again on a bunch of systems. You can probably still run what i had at the time. If you are curious about pythonforandroid, shows that it can be ported to android. I was a little further along then what is shown there. Also shows why it's taken a while to get an application running. Was going to be a password manager. I was packaging it on linux, windows, android, as a server and a webview. The application behaves differently between running as webview and a server.
-
-Part of this was me playing around with pywebview. The application uses both the flask pywebview api and the pywebview javascript api. Figured mine as well try out the non flask option. Android was kind of an afterthought.
-
-Todo list
-----------------------------------------------
-fix redirects for libreddit, add an export bookmarks button. Add filters for search engine proxies. Clean up the readme. Might start with rss reader that just works for reddit links. Mess with the channels section or the download option
-
-![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2009-45-06.png?raw=true, "cardview page for jumping around quickly and accessing your notes")
