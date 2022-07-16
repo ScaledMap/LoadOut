@@ -25,7 +25,7 @@ Downloads
 -------------------------------------------
 *The windows application needs to be repackaged with latest updates
 
-*only the server is working on the pi. There is a problem with QtWebengine on the pi. pywebview will work with qtwebkit but pyinstaller wont
+*only the server is working on build for the pi. Will update the working webview application in a bit.
 
 windows 
 download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
@@ -162,6 +162,9 @@ fix redirects for libreddit, add an export bookmarks button. Add filters for sea
 
 most recent updates
 -------------------
+I haven't uploaded any of the new builds. I was able to get the webview working. There are a few issues with running the application as a webview. Will kind of pick at fixing the bugs. Figured I'd remove the part about qtwebengine at least since I did get it kind of working. Pyperclip doesn't work. Also the descriptions aren't showing up. I added the ability to add hidden categories to the hidden bookmarks section. Those won't have icons ATM. Will upload new build in a bit. You will add hidden categories like arguments in a program. Mainly updated this because I wanted to remove stuff about qtwebengine. At the time, I had run into an article online saying qtwebengine wouldn't work on the pi. It might be causing the bug with the descriptions, but things will work for the most part. Anyway, I will upload the updated pi build and linux build in a few days. Lol the pi's actually have some problems loading github. They are old. Have to wait till I'm on a normal pc.
+
+
 Simple update that fixed the redirect when editing hidden bookmarks. Also flash added instead of render template when adding to hidden bookmarks. The link for settings was borken on a few pages because i changed how I wanted to handle redirects. Should be fixed.
 
 hostname -I to pull up the ipaddress
@@ -171,8 +174,6 @@ The server should definetly work on all your devices now. I might add an option 
 Working on adding screenshots. Would like to organize the github better. Fix up the readme.
 
 Updated the raspberry pi build. It should be at the same place in development as the normal linux build. I'm in the unusual situation where my main computer is hardwired and doesn't have a wireless card. I was able to run the application as a server while messing with it on the pi. So at this point at least, pretty confident that the server will run on all your other devices. It really was pretty cool having all my webstuff right there on all the devices at my dads house. I'm pretty psyched about working on this project after getting the raspberry pi server going. It was cool being able  to pull up my music playlists on all the devices in the house. Cool seeing it on mobile. After messing with the networking side of things, I think I will probably try and add some kind of loose account settings eventually. I guess you could just run the application on two different ports? ¯\_(ツ)_/¯. I'll test how that works.
-
-Unfortunitely, I don't think getting the webview to work is an option on the raspberry pi. The raspberry pi doesnt support QtWebEngine. You can get pywebview to work with QtWebKit, but pyinstaller doesn't like using QtWebKit. It has depreciated it. Maybe an option would be to use an older version of pyinstaller. I'm probably not going to make that a huge priority though.  Gtk might also be an option. I also had to use some depreciated libraries to get that to work. It can run as a webview on the raspberry pi if I don't package it. Kinda makes more since as a server on the pi anyway though. So yeah. Not at the top of my to do list.
 
 Also, raspbian unfortunitely won't work either. I built the raspberry pi build on raspberry pi os. I could try doing a build for raspbian i guess. Maybe if i get bored.
 
