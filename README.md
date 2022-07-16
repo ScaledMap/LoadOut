@@ -25,7 +25,7 @@ Downloads
 -------------------------------------------
 *The windows application needs to be repackaged with latest updates
 
-*only the server is working on build for the pi. Will update the working webview application in a bit.
+*only the server is working on this build for the pi. Will update the working webview application in a bit.
 
 windows 
 download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
@@ -162,7 +162,7 @@ fix redirects for libreddit, add an export bookmarks button. Add filters for sea
 
 most recent updates
 -------------------
-I haven't uploaded any of the new builds. I was able to get the webview working. There are a few issues with running the application as a webview. Will kind of pick at fixing the bugs. Figured I'd remove the part about qtwebengine at least since I did get it kind of working. Pyperclip doesn't work. Also the descriptions aren't showing up. I added the ability to add hidden categories to the hidden bookmarks section. Those won't have icons ATM. Will upload new build in a bit. You will add hidden categories like arguments in a program. Mainly updated this because I wanted to remove stuff about qtwebengine. At the time, I had run into an article online saying qtwebengine wouldn't work on the pi. It might be causing the bug with the descriptions, but things will work for the most part. Anyway, I will upload the updated pi build and linux build in a few days. Lol the pi's actually have some problems loading github. They are old. Have to wait till I'm on a normal pc.
+I haven't uploaded any of the new builds. I was able to get the webview working. There are a few issues with running the application as a webview. Will kind of pick at fixing the bugs. Figured I'd remove the part about qtwebengine at least since I did get it kind of working. Pyperclip doesn't work. Also the descriptions aren't showing up. I added the ability to add hidden categories to the hidden bookmarks section. Those won't have icons ATM. Will upload new build in a bit. You will add hidden categories like arguments in a program. Mainly updated this because I wanted to remove stuff about qtwebengine. At the time, I had run into an article online saying qtwebengine wouldn't work on the pi. It might be causing the bug with the descriptions, but things will work for the most part. Anyway, I will upload the updated pi build and linux build in a few days. Lol the pies actually have some problems loading github. They are old. Have to wait till I'm on a normal pc. I mean... could probably use git... Just easier to wait though.
 
 
 Simple update that fixed the redirect when editing hidden bookmarks. Also flash added instead of render template when adding to hidden bookmarks. The link for settings was borken on a few pages because i changed how I wanted to handle redirects. Should be fixed.
