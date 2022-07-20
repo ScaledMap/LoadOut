@@ -162,7 +162,7 @@ fix redirects for libreddit, add an export bookmarks button. Add filters for sea
 
 most recent updates
 -------------------
-
+Also, restore to default settings isn't working atm. I'm kind of okay with that. Removing the database file will force the application to restore the original default values from a long time back "bookmarks.sqlite". I'd kind of prefer to redo that button anyway. I know what broke it. Just the redirects. It didn't work properly on windows the way it was set up. Wasn't a great solution in general.
 
 updated the normal linux build. I'm going to do another build for the pi before i upload that. There is a bug that is pretty annoying in the last build. There has been a warning going off saying set track_modifcations in config. Finally got tired of that and it seems like it made things run a lot faster.
 
