@@ -2,6 +2,8 @@
 
 ![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2010-06-16.png?raw=true "Main bookmarks page for the application")
 
+hostname -I to pull up the ipaddress in bash
+
 Still a work in progress. 
 
 This application gets updated somewhat frequently  with small updates. To keep your database without having to redo everything, just redownload the application and overwrite the bookmarks.sqlite file with the old bookmarks.sqlite file. Can also move your notes over by overwriting the notes folder.
@@ -156,32 +158,5 @@ Todo list
 fix redirects for libreddit, add an export bookmarks button. Add filters for search engine proxies. Clean up the readme. Might start with rss reader that just works for reddit links. Mess with the channels section or the download option
 
 ![Alt text](https://github.com/ScaledMap/LoadOut/blob/main/Screenshot%20from%202022-05-16%2009-45-06.png?raw=true, "cardview page for jumping around quickly and accessing your notes")
-
-
-most recent updates
--------------------
-
-Fixed a lot of bugs and been messing with it on arch
-
-Converting to libreddit is working a lot better. There was also an issue accessing it from the cardview. I got playlists working on custom categories that are set as the index(homepage). I added an html color picker into the application. Kept the link to w3. The settings will update automatically now. Don't have to reload the application. Notes are working. Bunch of small updates. 
-
-pyperclip wasn't working for a second. It isn't working on the pi and the exception wasn't working on linux for some reason. Fixed that. Might try and leave up more than one version at a time in the future
-
-Also, restore to default settings isn't working atm. I'm kind of okay with that. Removing the database file will force the application to restore the original default values from a long time back "bookmarks.sqlite". I'd kind of prefer to redo that button anyway. I know what broke it. Just the redirects. It didn't work properly on windows the way it was set up. Wasn't a great solution in general.
-
-updated the normal linux build. I'm going to do another build for the pi before i upload that. There is a bug that is pretty annoying in the last build. There has been a warning going off saying set track_modifcations in config. Finally got tired of that and it seems like it made things run a lot faster.
-
-Also, I added hidden categories. <password> <url> <category>
-
-The category has to be 1 word atm. Will probably set it up to take quotes later. The form in the password section takes 2 arguments now. <url> <category> Obviously you leave out the <>. just space seperated arguments. You can filter out nsfw bookmarks completly now when importing from firefox. Sure nofap would be happier about that lol. Did use their giant, giant list. To tell it to throw out nsfw bookmarks, you need to go to the password protected bookmarks and edit the settings in there. It defaults to how it had been running. It also wont let you reimport the same hidden bookmarks more than once now. Just fixed a lot of little things. Seperated notes into a seperate folder. Might do that with the config files as well. The hidden bookmarks aren't super flushed out. Can only add to those categories by retyping the category name more than once. Will make editing the hidden bookmarks an option when I get a chance. I will also add them to the other dropdown.
-
-I was able to get the webview working. There are a few issues with running the application as a webview. Will kind of pick at fixing the bugs. Figured I'd remove the part about qtwebengine at least since I did get it kind of working. Pyperclip doesn't work. Also the descriptions aren't showing up.
-
-Mainly updated this because I wanted to remove stuff about qtwebengine. At the time, I had run into an article online saying qtwebengine wouldn't work on the pi. It might be causing the bug with the descriptions, but things will work for the most part. Anyway, I will upload the updated pi build build in a few days. 
-
-hostname -I to pull up the ipaddress in bash
-
-The server should definetly work on all your devices now. I might add an option where you can choose to have the server just run in your browser vs allowing other devices to connect.
-
 
 
