@@ -29,13 +29,13 @@ Downloads
    
 windows 
 *The windows application needs to be repackaged. it's way, way behind the linux builds
-
 download link= https://icedrive.net/s/g62kVCYYfghSCZbu2fB53tfY7h7A
 
-linux 
 
+linux 
 *mainly tested on debian systems. Working on testing it on manjaro.
 download link= https://icedrive.net/s/fAwV3u6f3aDfT3v71Rtt4uW15iSG
+
 
 raspberry pi
 download link = https://icedrive.net/s/Nz4gvN36kNuYkDTY2XuX3PBAfRTy
